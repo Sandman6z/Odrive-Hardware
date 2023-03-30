@@ -1,10 +1,8 @@
-[Design]
+ï»¿[Design]
 Version=1.0
 HierarchyMode=2
 ChannelRoomNamingStyle=0
 ReleasesFolder=
-ReleaseVaultGUID=
-ReleaseVaultName=
 ChannelDesignatorFormatString=$Component_$RoomName
 ChannelRoomLevelSeperator=_
 OpenOutputs=1
@@ -25,14 +23,26 @@ DefaultPcbPcad=0
 ReorderDocumentsOnCompile=1
 NameNetsHierarchically=0
 PowerPortNamesTakePriority=1
+AutoSheetNumbering=0
+AutoCrossReferences=0
+NewIndexingOfSheetSymbols=0
 PushECOToAnnotationFile=1
 DItemRevisionGUID=
 ReportSuppressedErrorsInMessages=0
 FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
+IsProjectConflictPreventionWarningsEnabled=1
+IsVirtualBomDocumentRemoved=0
 OutputPath=
 LogFolderPath=
 ManagedProjectGUID=
+IncludeDesignInRelease=0
+CrossRefSheetStyle=1
+CrossRefLocationStyle=1
+CrossRefPorts=3
+CrossRefCrossSheets=1
+CrossRefSheetEntries=0
+CrossRefFollowFromMainSettings=1
 
 [Preferences]
 PrefsVaultGUID=
@@ -175,6 +185,7 @@ GenerateClassCluster=0
 DocumentUniqueId=MSLCDXYV
 
 [ProjectVariant1]
+UniqueID=B06FC4F4-8BDF-43E8-A343-2814BB4B23BD
 Description=48V
 AllowFabrication=0
 ParameterCount=0
@@ -208,7 +219,7 @@ ParamVariation13=ParameterName=Lead Spacing|VariantValue=-
 ParamDesignator13=C11
 ParamVariation14=ParameterName=Library Reference|VariantValue=EEH-ZC1H121P
 ParamDesignator14=C11
-ParamVariation15=ParameterName=Lifetime @ Temp.|VariantValue=4000 Hrs @ 125°C
+ParamVariation15=ParameterName=Lifetime @ Temp.|VariantValue=4000 Hrs @ 125ç™ˆ
 ParamDesignator15=C11
 ParamVariation16=ParameterName=Manufacturer|VariantValue=Panasonic Electronic Components
 ParamDesignator16=C11
@@ -216,7 +227,7 @@ ParamVariation17=ParameterName=Manufacturer Part Number|VariantValue=EEH-ZC1H121
 ParamDesignator17=C11
 ParamVariation18=ParameterName=Mounting Type|VariantValue=Surface Mount
 ParamDesignator18=C11
-ParamVariation19=ParameterName=Operating Temperature|VariantValue=-55°C ~ 125°C
+ParamVariation19=ParameterName=Operating Temperature|VariantValue=-55ç™ˆ ~ 125ç™ˆ
 ParamDesignator19=C11
 ParamVariation20=ParameterName=Package / Case|VariantValue=Radial, Can - SMD
 ParamDesignator20=C11
@@ -254,7 +265,7 @@ ParamVariation36=ParameterName=Supplier Part Number 2|VariantValue=P19316TR-ND
 ParamDesignator36=C11
 ParamVariation37=ParameterName=Surface Mount Land Size|VariantValue=0.406" L x 0.406" W (10.30mm x 10.30mm)
 ParamDesignator37=C11
-ParamVariation38=ParameterName=Tolerance|VariantValue=±20%
+ParamVariation38=ParameterName=Tolerance|VariantValue=?0%
 ParamDesignator38=C11
 ParamVariation39=ParameterName=Type|VariantValue=Hybrid
 ParamDesignator39=C11
@@ -287,7 +298,7 @@ ParamVariation52=ParameterName=Lead Spacing|VariantValue=-
 ParamDesignator52=C12
 ParamVariation53=ParameterName=Library Reference|VariantValue=EEH-ZC1H121P
 ParamDesignator53=C12
-ParamVariation54=ParameterName=Lifetime @ Temp.|VariantValue=4000 Hrs @ 125°C
+ParamVariation54=ParameterName=Lifetime @ Temp.|VariantValue=4000 Hrs @ 125ç™ˆ
 ParamDesignator54=C12
 ParamVariation55=ParameterName=Manufacturer|VariantValue=Panasonic Electronic Components
 ParamDesignator55=C12
@@ -295,7 +306,7 @@ ParamVariation56=ParameterName=Manufacturer Part Number|VariantValue=EEH-ZC1H121
 ParamDesignator56=C12
 ParamVariation57=ParameterName=Mounting Type|VariantValue=Surface Mount
 ParamDesignator57=C12
-ParamVariation58=ParameterName=Operating Temperature|VariantValue=-55°C ~ 125°C
+ParamVariation58=ParameterName=Operating Temperature|VariantValue=-55ç™ˆ ~ 125ç™ˆ
 ParamDesignator58=C12
 ParamVariation59=ParameterName=Package / Case|VariantValue=Radial, Can - SMD
 ParamDesignator59=C12
@@ -333,7 +344,7 @@ ParamVariation75=ParameterName=Supplier Part Number 2|VariantValue=P19316TR-ND
 ParamDesignator75=C12
 ParamVariation76=ParameterName=Surface Mount Land Size|VariantValue=0.406" L x 0.406" W (10.30mm x 10.30mm)
 ParamDesignator76=C12
-ParamVariation77=ParameterName=Tolerance|VariantValue=±20%
+ParamVariation77=ParameterName=Tolerance|VariantValue=?0%
 ParamDesignator77=C12
 ParamVariation78=ParameterName=Type|VariantValue=Hybrid
 ParamDesignator78=C12
@@ -366,7 +377,7 @@ ParamVariation91=ParameterName=Lead Spacing|VariantValue=-
 ParamDesignator91=C17
 ParamVariation92=ParameterName=Library Reference|VariantValue=EEH-ZC1H121P
 ParamDesignator92=C17
-ParamVariation93=ParameterName=Lifetime @ Temp.|VariantValue=4000 Hrs @ 125°C
+ParamVariation93=ParameterName=Lifetime @ Temp.|VariantValue=4000 Hrs @ 125ç™ˆ
 ParamDesignator93=C17
 ParamVariation94=ParameterName=Manufacturer|VariantValue=Panasonic Electronic Components
 ParamDesignator94=C17
@@ -374,7 +385,7 @@ ParamVariation95=ParameterName=Manufacturer Part Number|VariantValue=EEH-ZC1H121
 ParamDesignator95=C17
 ParamVariation96=ParameterName=Mounting Type|VariantValue=Surface Mount
 ParamDesignator96=C17
-ParamVariation97=ParameterName=Operating Temperature|VariantValue=-55°C ~ 125°C
+ParamVariation97=ParameterName=Operating Temperature|VariantValue=-55ç™ˆ ~ 125ç™ˆ
 ParamDesignator97=C17
 ParamVariation98=ParameterName=Package / Case|VariantValue=Radial, Can - SMD
 ParamDesignator98=C17
@@ -412,7 +423,7 @@ ParamVariation114=ParameterName=Supplier Part Number 2|VariantValue=P19316TR-ND
 ParamDesignator114=C17
 ParamVariation115=ParameterName=Surface Mount Land Size|VariantValue=0.406" L x 0.406" W (10.30mm x 10.30mm)
 ParamDesignator115=C17
-ParamVariation116=ParameterName=Tolerance|VariantValue=±20%
+ParamVariation116=ParameterName=Tolerance|VariantValue=?0%
 ParamDesignator116=C17
 ParamVariation117=ParameterName=Type|VariantValue=Hybrid
 ParamDesignator117=C17
@@ -445,7 +456,7 @@ ParamVariation130=ParameterName=Lead Spacing|VariantValue=-
 ParamDesignator130=C16
 ParamVariation131=ParameterName=Library Reference|VariantValue=EEH-ZC1H121P
 ParamDesignator131=C16
-ParamVariation132=ParameterName=Lifetime @ Temp.|VariantValue=4000 Hrs @ 125°C
+ParamVariation132=ParameterName=Lifetime @ Temp.|VariantValue=4000 Hrs @ 125ç™ˆ
 ParamDesignator132=C16
 ParamVariation133=ParameterName=Manufacturer|VariantValue=Panasonic Electronic Components
 ParamDesignator133=C16
@@ -453,7 +464,7 @@ ParamVariation134=ParameterName=Manufacturer Part Number|VariantValue=EEH-ZC1H12
 ParamDesignator134=C16
 ParamVariation135=ParameterName=Mounting Type|VariantValue=Surface Mount
 ParamDesignator135=C16
-ParamVariation136=ParameterName=Operating Temperature|VariantValue=-55°C ~ 125°C
+ParamVariation136=ParameterName=Operating Temperature|VariantValue=-55ç™ˆ ~ 125ç™ˆ
 ParamDesignator136=C16
 ParamVariation137=ParameterName=Package / Case|VariantValue=Radial, Can - SMD
 ParamDesignator137=C16
@@ -491,7 +502,7 @@ ParamVariation153=ParameterName=Supplier Part Number 2|VariantValue=P19316TR-ND
 ParamDesignator153=C16
 ParamVariation154=ParameterName=Surface Mount Land Size|VariantValue=0.406" L x 0.406" W (10.30mm x 10.30mm)
 ParamDesignator154=C16
-ParamVariation155=ParameterName=Tolerance|VariantValue=±20%
+ParamVariation155=ParameterName=Tolerance|VariantValue=?0%
 ParamDesignator155=C16
 ParamVariation156=ParameterName=Type|VariantValue=Hybrid
 ParamDesignator156=C16
@@ -524,7 +535,7 @@ ParamVariation169=ParameterName=Lead Spacing|VariantValue=-
 ParamDesignator169=C15
 ParamVariation170=ParameterName=Library Reference|VariantValue=EEH-ZC1H121P
 ParamDesignator170=C15
-ParamVariation171=ParameterName=Lifetime @ Temp.|VariantValue=4000 Hrs @ 125°C
+ParamVariation171=ParameterName=Lifetime @ Temp.|VariantValue=4000 Hrs @ 125ç™ˆ
 ParamDesignator171=C15
 ParamVariation172=ParameterName=Manufacturer|VariantValue=Panasonic Electronic Components
 ParamDesignator172=C15
@@ -532,7 +543,7 @@ ParamVariation173=ParameterName=Manufacturer Part Number|VariantValue=EEH-ZC1H12
 ParamDesignator173=C15
 ParamVariation174=ParameterName=Mounting Type|VariantValue=Surface Mount
 ParamDesignator174=C15
-ParamVariation175=ParameterName=Operating Temperature|VariantValue=-55°C ~ 125°C
+ParamVariation175=ParameterName=Operating Temperature|VariantValue=-55ç™ˆ ~ 125ç™ˆ
 ParamDesignator175=C15
 ParamVariation176=ParameterName=Package / Case|VariantValue=Radial, Can - SMD
 ParamDesignator176=C15
@@ -570,7 +581,7 @@ ParamVariation192=ParameterName=Supplier Part Number 2|VariantValue=P19316TR-ND
 ParamDesignator192=C15
 ParamVariation193=ParameterName=Surface Mount Land Size|VariantValue=0.406" L x 0.406" W (10.30mm x 10.30mm)
 ParamDesignator193=C15
-ParamVariation194=ParameterName=Tolerance|VariantValue=±20%
+ParamVariation194=ParameterName=Tolerance|VariantValue=?0%
 ParamDesignator194=C15
 ParamVariation195=ParameterName=Type|VariantValue=Hybrid
 ParamDesignator195=C15
@@ -603,7 +614,7 @@ ParamVariation208=ParameterName=Lead Spacing|VariantValue=-
 ParamDesignator208=C14
 ParamVariation209=ParameterName=Library Reference|VariantValue=EEH-ZC1H121P
 ParamDesignator209=C14
-ParamVariation210=ParameterName=Lifetime @ Temp.|VariantValue=4000 Hrs @ 125°C
+ParamVariation210=ParameterName=Lifetime @ Temp.|VariantValue=4000 Hrs @ 125ç™ˆ
 ParamDesignator210=C14
 ParamVariation211=ParameterName=Manufacturer|VariantValue=Panasonic Electronic Components
 ParamDesignator211=C14
@@ -611,7 +622,7 @@ ParamVariation212=ParameterName=Manufacturer Part Number|VariantValue=EEH-ZC1H12
 ParamDesignator212=C14
 ParamVariation213=ParameterName=Mounting Type|VariantValue=Surface Mount
 ParamDesignator213=C14
-ParamVariation214=ParameterName=Operating Temperature|VariantValue=-55°C ~ 125°C
+ParamVariation214=ParameterName=Operating Temperature|VariantValue=-55ç™ˆ ~ 125ç™ˆ
 ParamDesignator214=C14
 ParamVariation215=ParameterName=Package / Case|VariantValue=Radial, Can - SMD
 ParamDesignator215=C14
@@ -649,7 +660,7 @@ ParamVariation231=ParameterName=Supplier Part Number 2|VariantValue=P19316TR-ND
 ParamDesignator231=C14
 ParamVariation232=ParameterName=Surface Mount Land Size|VariantValue=0.406" L x 0.406" W (10.30mm x 10.30mm)
 ParamDesignator232=C14
-ParamVariation233=ParameterName=Tolerance|VariantValue=±20%
+ParamVariation233=ParameterName=Tolerance|VariantValue=?0%
 ParamDesignator233=C14
 ParamVariation234=ParameterName=Type|VariantValue=Hybrid
 ParamDesignator234=C14
@@ -682,7 +693,7 @@ ParamVariation247=ParameterName=Lead Spacing|VariantValue=-
 ParamDesignator247=C18
 ParamVariation248=ParameterName=Library Reference|VariantValue=EEH-ZC1H121P
 ParamDesignator248=C18
-ParamVariation249=ParameterName=Lifetime @ Temp.|VariantValue=4000 Hrs @ 125°C
+ParamVariation249=ParameterName=Lifetime @ Temp.|VariantValue=4000 Hrs @ 125ç™ˆ
 ParamDesignator249=C18
 ParamVariation250=ParameterName=Manufacturer|VariantValue=Panasonic Electronic Components
 ParamDesignator250=C18
@@ -690,7 +701,7 @@ ParamVariation251=ParameterName=Manufacturer Part Number|VariantValue=EEH-ZC1H12
 ParamDesignator251=C18
 ParamVariation252=ParameterName=Mounting Type|VariantValue=Surface Mount
 ParamDesignator252=C18
-ParamVariation253=ParameterName=Operating Temperature|VariantValue=-55°C ~ 125°C
+ParamVariation253=ParameterName=Operating Temperature|VariantValue=-55ç™ˆ ~ 125ç™ˆ
 ParamDesignator253=C18
 ParamVariation254=ParameterName=Package / Case|VariantValue=Radial, Can - SMD
 ParamDesignator254=C18
@@ -728,7 +739,7 @@ ParamVariation270=ParameterName=Supplier Part Number 2|VariantValue=P19316TR-ND
 ParamDesignator270=C18
 ParamVariation271=ParameterName=Surface Mount Land Size|VariantValue=0.406" L x 0.406" W (10.30mm x 10.30mm)
 ParamDesignator271=C18
-ParamVariation272=ParameterName=Tolerance|VariantValue=±20%
+ParamVariation272=ParameterName=Tolerance|VariantValue=?0%
 ParamDesignator272=C18
 ParamVariation273=ParameterName=Type|VariantValue=Hybrid
 ParamDesignator273=C18
@@ -761,7 +772,7 @@ ParamVariation286=ParameterName=Lead Spacing|VariantValue=-
 ParamDesignator286=C13
 ParamVariation287=ParameterName=Library Reference|VariantValue=EEH-ZC1H121P
 ParamDesignator287=C13
-ParamVariation288=ParameterName=Lifetime @ Temp.|VariantValue=4000 Hrs @ 125°C
+ParamVariation288=ParameterName=Lifetime @ Temp.|VariantValue=4000 Hrs @ 125ç™ˆ
 ParamDesignator288=C13
 ParamVariation289=ParameterName=Manufacturer|VariantValue=Panasonic Electronic Components
 ParamDesignator289=C13
@@ -769,7 +780,7 @@ ParamVariation290=ParameterName=Manufacturer Part Number|VariantValue=EEH-ZC1H12
 ParamDesignator290=C13
 ParamVariation291=ParameterName=Mounting Type|VariantValue=Surface Mount
 ParamDesignator291=C13
-ParamVariation292=ParameterName=Operating Temperature|VariantValue=-55°C ~ 125°C
+ParamVariation292=ParameterName=Operating Temperature|VariantValue=-55ç™ˆ ~ 125ç™ˆ
 ParamDesignator292=C13
 ParamVariation293=ParameterName=Package / Case|VariantValue=Radial, Can - SMD
 ParamDesignator293=C13
@@ -807,7 +818,7 @@ ParamVariation309=ParameterName=Supplier Part Number 2|VariantValue=P19316TR-ND
 ParamDesignator309=C13
 ParamVariation310=ParameterName=Surface Mount Land Size|VariantValue=0.406" L x 0.406" W (10.30mm x 10.30mm)
 ParamDesignator310=C13
-ParamVariation311=ParameterName=Tolerance|VariantValue=±20%
+ParamVariation311=ParameterName=Tolerance|VariantValue=?0%
 ParamDesignator311=C13
 ParamVariation312=ParameterName=Type|VariantValue=Hybrid
 ParamDesignator312=C13
@@ -846,7 +857,7 @@ ParamVariation328=ParameterName=Manufacturer Part Number|VariantValue=GRM21BR61H
 ParamDesignator328=C19
 ParamVariation329=ParameterName=Mounting Type|VariantValue=Surface Mount, MLCC
 ParamDesignator329=C19
-ParamVariation330=ParameterName=Operating Temperature|VariantValue=-55°C ~ 85°C
+ParamVariation330=ParameterName=Operating Temperature|VariantValue=-55ç™ˆ ~ 85ç™ˆ
 ParamDesignator330=C19
 ParamVariation331=ParameterName=Package / Case|VariantValue=0805 (2012 Metric)
 ParamDesignator331=C19
@@ -884,7 +895,7 @@ ParamVariation347=ParameterName=Temperature Coefficient|VariantValue=X5R
 ParamDesignator347=C19
 ParamVariation348=ParameterName=Thickness (Max)|VariantValue=0.055" (1.40mm)
 ParamDesignator348=C19
-ParamVariation349=ParameterName=Tolerance|VariantValue=±10%
+ParamVariation349=ParameterName=Tolerance|VariantValue=?0%
 ParamDesignator349=C19
 ParamVariation350=ParameterName=Value|VariantValue=4.7uF
 ParamDesignator350=C19
@@ -925,7 +936,7 @@ ParamVariation367=ParameterName=Manufacturer Part Number|VariantValue=GRM21BR61H
 ParamDesignator367=C21
 ParamVariation368=ParameterName=Mounting Type|VariantValue=Surface Mount, MLCC
 ParamDesignator368=C21
-ParamVariation369=ParameterName=Operating Temperature|VariantValue=-55°C ~ 85°C
+ParamVariation369=ParameterName=Operating Temperature|VariantValue=-55ç™ˆ ~ 85ç™ˆ
 ParamDesignator369=C21
 ParamVariation370=ParameterName=Package / Case|VariantValue=0805 (2012 Metric)
 ParamDesignator370=C21
@@ -963,7 +974,7 @@ ParamVariation386=ParameterName=Temperature Coefficient|VariantValue=X5R
 ParamDesignator386=C21
 ParamVariation387=ParameterName=Thickness (Max)|VariantValue=0.055" (1.40mm)
 ParamDesignator387=C21
-ParamVariation388=ParameterName=Tolerance|VariantValue=±10%
+ParamVariation388=ParameterName=Tolerance|VariantValue=?0%
 ParamDesignator388=C21
 ParamVariation389=ParameterName=Value|VariantValue=4.7uF
 ParamDesignator389=C21
@@ -1004,7 +1015,7 @@ ParamVariation406=ParameterName=Manufacturer Part Number|VariantValue=GRM21BR61H
 ParamDesignator406=C26
 ParamVariation407=ParameterName=Mounting Type|VariantValue=Surface Mount, MLCC
 ParamDesignator407=C26
-ParamVariation408=ParameterName=Operating Temperature|VariantValue=-55°C ~ 85°C
+ParamVariation408=ParameterName=Operating Temperature|VariantValue=-55ç™ˆ ~ 85ç™ˆ
 ParamDesignator408=C26
 ParamVariation409=ParameterName=Package / Case|VariantValue=0805 (2012 Metric)
 ParamDesignator409=C26
@@ -1042,7 +1053,7 @@ ParamVariation425=ParameterName=Temperature Coefficient|VariantValue=X5R
 ParamDesignator425=C26
 ParamVariation426=ParameterName=Thickness (Max)|VariantValue=0.055" (1.40mm)
 ParamDesignator426=C26
-ParamVariation427=ParameterName=Tolerance|VariantValue=±10%
+ParamVariation427=ParameterName=Tolerance|VariantValue=?0%
 ParamDesignator427=C26
 ParamVariation428=ParameterName=Value|VariantValue=4.7uF
 ParamDesignator428=C26
@@ -1083,7 +1094,7 @@ ParamVariation445=ParameterName=Manufacturer Part Number|VariantValue=GRM21BR61H
 ParamDesignator445=C55
 ParamVariation446=ParameterName=Mounting Type|VariantValue=Surface Mount, MLCC
 ParamDesignator446=C55
-ParamVariation447=ParameterName=Operating Temperature|VariantValue=-55°C ~ 85°C
+ParamVariation447=ParameterName=Operating Temperature|VariantValue=-55ç™ˆ ~ 85ç™ˆ
 ParamDesignator447=C55
 ParamVariation448=ParameterName=Package / Case|VariantValue=0805 (2012 Metric)
 ParamDesignator448=C55
@@ -1121,7 +1132,7 @@ ParamVariation464=ParameterName=Temperature Coefficient|VariantValue=X5R
 ParamDesignator464=C55
 ParamVariation465=ParameterName=Thickness (Max)|VariantValue=0.055" (1.40mm)
 ParamDesignator465=C55
-ParamVariation466=ParameterName=Tolerance|VariantValue=±10%
+ParamVariation466=ParameterName=Tolerance|VariantValue=?0%
 ParamDesignator466=C55
 ParamVariation467=ParameterName=Value|VariantValue=4.7uF
 ParamDesignator467=C55
@@ -1162,7 +1173,7 @@ ParamVariation484=ParameterName=Manufacturer Part Number|VariantValue=GRM21BR61H
 ParamDesignator484=C40
 ParamVariation485=ParameterName=Mounting Type|VariantValue=Surface Mount, MLCC
 ParamDesignator485=C40
-ParamVariation486=ParameterName=Operating Temperature|VariantValue=-55°C ~ 85°C
+ParamVariation486=ParameterName=Operating Temperature|VariantValue=-55ç™ˆ ~ 85ç™ˆ
 ParamDesignator486=C40
 ParamVariation487=ParameterName=Package / Case|VariantValue=0805 (2012 Metric)
 ParamDesignator487=C40
@@ -1200,7 +1211,7 @@ ParamVariation503=ParameterName=Temperature Coefficient|VariantValue=X5R
 ParamDesignator503=C40
 ParamVariation504=ParameterName=Thickness (Max)|VariantValue=0.055" (1.40mm)
 ParamDesignator504=C40
-ParamVariation505=ParameterName=Tolerance|VariantValue=±10%
+ParamVariation505=ParameterName=Tolerance|VariantValue=?0%
 ParamDesignator505=C40
 ParamVariation506=ParameterName=Value|VariantValue=4.7uF
 ParamDesignator506=C40
@@ -1241,7 +1252,7 @@ ParamVariation523=ParameterName=Manufacturer Part Number|VariantValue=GRM21BR61H
 ParamDesignator523=C60
 ParamVariation524=ParameterName=Mounting Type|VariantValue=Surface Mount, MLCC
 ParamDesignator524=C60
-ParamVariation525=ParameterName=Operating Temperature|VariantValue=-55°C ~ 85°C
+ParamVariation525=ParameterName=Operating Temperature|VariantValue=-55ç™ˆ ~ 85ç™ˆ
 ParamDesignator525=C60
 ParamVariation526=ParameterName=Package / Case|VariantValue=0805 (2012 Metric)
 ParamDesignator526=C60
@@ -1279,7 +1290,7 @@ ParamVariation542=ParameterName=Temperature Coefficient|VariantValue=X5R
 ParamDesignator542=C60
 ParamVariation543=ParameterName=Thickness (Max)|VariantValue=0.055" (1.40mm)
 ParamDesignator543=C60
-ParamVariation544=ParameterName=Tolerance|VariantValue=±10%
+ParamVariation544=ParameterName=Tolerance|VariantValue=?0%
 ParamDesignator544=C60
 ParamVariation545=ParameterName=Value|VariantValue=4.7uF
 ParamDesignator545=C60
@@ -1320,7 +1331,7 @@ ParamVariation562=ParameterName=Manufacturer Part Number|VariantValue=GRM21BR61H
 ParamDesignator562=C44
 ParamVariation563=ParameterName=Mounting Type|VariantValue=Surface Mount, MLCC
 ParamDesignator563=C44
-ParamVariation564=ParameterName=Operating Temperature|VariantValue=-55°C ~ 85°C
+ParamVariation564=ParameterName=Operating Temperature|VariantValue=-55ç™ˆ ~ 85ç™ˆ
 ParamDesignator564=C44
 ParamVariation565=ParameterName=Package / Case|VariantValue=0805 (2012 Metric)
 ParamDesignator565=C44
@@ -1358,7 +1369,7 @@ ParamVariation581=ParameterName=Temperature Coefficient|VariantValue=X5R
 ParamDesignator581=C44
 ParamVariation582=ParameterName=Thickness (Max)|VariantValue=0.055" (1.40mm)
 ParamDesignator582=C44
-ParamVariation583=ParameterName=Tolerance|VariantValue=±10%
+ParamVariation583=ParameterName=Tolerance|VariantValue=?0%
 ParamDesignator583=C44
 ParamVariation584=ParameterName=Value|VariantValue=4.7uF
 ParamDesignator584=C44
@@ -1399,7 +1410,7 @@ ParamVariation601=ParameterName=Manufacturer Part Number|VariantValue=GRM21BR61H
 ParamDesignator601=C20
 ParamVariation602=ParameterName=Mounting Type|VariantValue=Surface Mount, MLCC
 ParamDesignator602=C20
-ParamVariation603=ParameterName=Operating Temperature|VariantValue=-55°C ~ 85°C
+ParamVariation603=ParameterName=Operating Temperature|VariantValue=-55ç™ˆ ~ 85ç™ˆ
 ParamDesignator603=C20
 ParamVariation604=ParameterName=Package / Case|VariantValue=0805 (2012 Metric)
 ParamDesignator604=C20
@@ -1437,7 +1448,7 @@ ParamVariation620=ParameterName=Temperature Coefficient|VariantValue=X5R
 ParamDesignator620=C20
 ParamVariation621=ParameterName=Thickness (Max)|VariantValue=0.055" (1.40mm)
 ParamDesignator621=C20
-ParamVariation622=ParameterName=Tolerance|VariantValue=±10%
+ParamVariation622=ParameterName=Tolerance|VariantValue=?0%
 ParamDesignator622=C20
 ParamVariation623=ParameterName=Value|VariantValue=4.7uF
 ParamDesignator623=C20
@@ -1454,7 +1465,7 @@ ParamVariation628=ParameterName=ComponentLink1Description|VariantValue=http://ww
 ParamDesignator628=Q25
 ParamVariation629=ParameterName=ComponentLink1URL|VariantValue=http://www.onsemi.com/pub/Collateral/NTMFS5C628NL-D.PDF
 ParamDesignator629=Q25
-ParamVariation630=ParameterName=Current - Continuous Drain (Id) @ 25°C|VariantValue=-
+ParamVariation630=ParameterName=Current - Continuous Drain (Id) @ 25ç™ˆ|VariantValue=-
 ParamDesignator630=Q25
 ParamVariation631=ParameterName=Description|VariantValue=MOSFET N-CH 60V SO8FL
 ParamDesignator631=Q25
@@ -1480,7 +1491,7 @@ ParamVariation641=ParameterName=Manufacturer Part Number|VariantValue=NTMFS5C628
 ParamDesignator641=Q25
 ParamVariation642=ParameterName=Mounting Type|VariantValue=Surface Mount
 ParamDesignator642=Q25
-ParamVariation643=ParameterName=Operating Temperature|VariantValue=-55°C ~ 175°C (TJ)
+ParamVariation643=ParameterName=Operating Temperature|VariantValue=-55ç™ˆ ~ 175ç™ˆ (TJ)
 ParamDesignator643=Q25
 ParamVariation644=ParameterName=Package / Case|VariantValue=8-PowerTDFN
 ParamDesignator644=Q25
@@ -1518,9 +1529,9 @@ ParamVariation660=ParameterName=Supplier Part Number 2|VariantValue=NTMFS5C628NL
 ParamDesignator660=Q25
 ParamVariation661=ParameterName=Technology|VariantValue=MOSFET (Metal Oxide)
 ParamDesignator661=Q25
-ParamVariation662=ParameterName=Vgs (Max)|VariantValue=±20V
+ParamVariation662=ParameterName=Vgs (Max)|VariantValue=?0V
 ParamDesignator662=Q25
-ParamVariation663=ParameterName=Vgs(th) (Max) @ Id|VariantValue=2V @ 135µA
+ParamVariation663=ParameterName=Vgs(th) (Max) @ Id|VariantValue=2V @ 135ç¤Ž
 ParamDesignator663=Q25
 ParamVariation664=ParameterName=Drain to Source Voltage (Vdss)|VariantValue=<no parameter>
 ParamDesignator664=Q25
@@ -1537,7 +1548,7 @@ ParamVariation669=ParameterName=ComponentLink1Description|VariantValue=http://ww
 ParamDesignator669=Q1
 ParamVariation670=ParameterName=ComponentLink1URL|VariantValue=http://www.onsemi.com/pub/Collateral/NTMFS5C628NL-D.PDF
 ParamDesignator670=Q1
-ParamVariation671=ParameterName=Current - Continuous Drain (Id) @ 25°C|VariantValue=-
+ParamVariation671=ParameterName=Current - Continuous Drain (Id) @ 25ç™ˆ|VariantValue=-
 ParamDesignator671=Q1
 ParamVariation672=ParameterName=Description|VariantValue=MOSFET N-CH 60V SO8FL
 ParamDesignator672=Q1
@@ -1563,7 +1574,7 @@ ParamVariation682=ParameterName=Manufacturer Part Number|VariantValue=NTMFS5C628
 ParamDesignator682=Q1
 ParamVariation683=ParameterName=Mounting Type|VariantValue=Surface Mount
 ParamDesignator683=Q1
-ParamVariation684=ParameterName=Operating Temperature|VariantValue=-55°C ~ 175°C (TJ)
+ParamVariation684=ParameterName=Operating Temperature|VariantValue=-55ç™ˆ ~ 175ç™ˆ (TJ)
 ParamDesignator684=Q1
 ParamVariation685=ParameterName=Package / Case|VariantValue=8-PowerTDFN
 ParamDesignator685=Q1
@@ -1601,9 +1612,9 @@ ParamVariation701=ParameterName=Supplier Part Number 2|VariantValue=NTMFS5C628NL
 ParamDesignator701=Q1
 ParamVariation702=ParameterName=Technology|VariantValue=MOSFET (Metal Oxide)
 ParamDesignator702=Q1
-ParamVariation703=ParameterName=Vgs (Max)|VariantValue=±20V
+ParamVariation703=ParameterName=Vgs (Max)|VariantValue=?0V
 ParamDesignator703=Q1
-ParamVariation704=ParameterName=Vgs(th) (Max) @ Id|VariantValue=2V @ 135µA
+ParamVariation704=ParameterName=Vgs(th) (Max) @ Id|VariantValue=2V @ 135ç¤Ž
 ParamDesignator704=Q1
 Variation19=Designator=Q2|UniqueId=\DVTMVPOV\GWVUDHYJ|Kind=2|AlternatePart=NTMFS5C628NLT|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=CustomComponents.SchLib|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=NTMFS5C628NLT|AltLibLink_UseLibraryName=False|AltLibLink_SourceLibraryName=CustomComponents.SchLib|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName= |AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=SO8FL_FILL|AltLibLink_IsSameFootprint=True
 ParamVariation705=ParameterName=Comment|VariantValue=NTMFS5C628NLT
@@ -1616,7 +1627,7 @@ ParamVariation708=ParameterName=ComponentLink1Description|VariantValue=http://ww
 ParamDesignator708=Q2
 ParamVariation709=ParameterName=ComponentLink1URL|VariantValue=http://www.onsemi.com/pub/Collateral/NTMFS5C628NL-D.PDF
 ParamDesignator709=Q2
-ParamVariation710=ParameterName=Current - Continuous Drain (Id) @ 25°C|VariantValue=-
+ParamVariation710=ParameterName=Current - Continuous Drain (Id) @ 25ç™ˆ|VariantValue=-
 ParamDesignator710=Q2
 ParamVariation711=ParameterName=Description|VariantValue=MOSFET N-CH 60V SO8FL
 ParamDesignator711=Q2
@@ -1642,7 +1653,7 @@ ParamVariation721=ParameterName=Manufacturer Part Number|VariantValue=NTMFS5C628
 ParamDesignator721=Q2
 ParamVariation722=ParameterName=Mounting Type|VariantValue=Surface Mount
 ParamDesignator722=Q2
-ParamVariation723=ParameterName=Operating Temperature|VariantValue=-55°C ~ 175°C (TJ)
+ParamVariation723=ParameterName=Operating Temperature|VariantValue=-55ç™ˆ ~ 175ç™ˆ (TJ)
 ParamDesignator723=Q2
 ParamVariation724=ParameterName=Package / Case|VariantValue=8-PowerTDFN
 ParamDesignator724=Q2
@@ -1680,9 +1691,9 @@ ParamVariation740=ParameterName=Supplier Part Number 2|VariantValue=NTMFS5C628NL
 ParamDesignator740=Q2
 ParamVariation741=ParameterName=Technology|VariantValue=MOSFET (Metal Oxide)
 ParamDesignator741=Q2
-ParamVariation742=ParameterName=Vgs (Max)|VariantValue=±20V
+ParamVariation742=ParameterName=Vgs (Max)|VariantValue=?0V
 ParamDesignator742=Q2
-ParamVariation743=ParameterName=Vgs(th) (Max) @ Id|VariantValue=2V @ 135µA
+ParamVariation743=ParameterName=Vgs(th) (Max) @ Id|VariantValue=2V @ 135ç¤Ž
 ParamDesignator743=Q2
 ParamVariation744=ParameterName=Drain to Source Voltage (Vdss)|VariantValue=<no parameter>
 ParamDesignator744=Q2
@@ -1699,7 +1710,7 @@ ParamVariation749=ParameterName=ComponentLink1Description|VariantValue=http://ww
 ParamDesignator749=Q3
 ParamVariation750=ParameterName=ComponentLink1URL|VariantValue=http://www.onsemi.com/pub/Collateral/NTMFS5C628NL-D.PDF
 ParamDesignator750=Q3
-ParamVariation751=ParameterName=Current - Continuous Drain (Id) @ 25°C|VariantValue=-
+ParamVariation751=ParameterName=Current - Continuous Drain (Id) @ 25ç™ˆ|VariantValue=-
 ParamDesignator751=Q3
 ParamVariation752=ParameterName=Description|VariantValue=MOSFET N-CH 60V SO8FL
 ParamDesignator752=Q3
@@ -1725,7 +1736,7 @@ ParamVariation762=ParameterName=Manufacturer Part Number|VariantValue=NTMFS5C628
 ParamDesignator762=Q3
 ParamVariation763=ParameterName=Mounting Type|VariantValue=Surface Mount
 ParamDesignator763=Q3
-ParamVariation764=ParameterName=Operating Temperature|VariantValue=-55°C ~ 175°C (TJ)
+ParamVariation764=ParameterName=Operating Temperature|VariantValue=-55ç™ˆ ~ 175ç™ˆ (TJ)
 ParamDesignator764=Q3
 ParamVariation765=ParameterName=Package / Case|VariantValue=8-PowerTDFN
 ParamDesignator765=Q3
@@ -1763,9 +1774,9 @@ ParamVariation781=ParameterName=Supplier Part Number 2|VariantValue=NTMFS5C628NL
 ParamDesignator781=Q3
 ParamVariation782=ParameterName=Technology|VariantValue=MOSFET (Metal Oxide)
 ParamDesignator782=Q3
-ParamVariation783=ParameterName=Vgs (Max)|VariantValue=±20V
+ParamVariation783=ParameterName=Vgs (Max)|VariantValue=?0V
 ParamDesignator783=Q3
-ParamVariation784=ParameterName=Vgs(th) (Max) @ Id|VariantValue=2V @ 135µA
+ParamVariation784=ParameterName=Vgs(th) (Max) @ Id|VariantValue=2V @ 135ç¤Ž
 ParamDesignator784=Q3
 Variation21=Designator=Q4|UniqueId=\DVTMVPOV\OISGTMGX|Kind=2|AlternatePart=NTMFS5C628NLT|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=CustomComponents.SchLib|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=NTMFS5C628NLT|AltLibLink_UseLibraryName=False|AltLibLink_SourceLibraryName=CustomComponents.SchLib|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName= |AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=SO8FL_FILL|AltLibLink_IsSameFootprint=True
 ParamVariation785=ParameterName=Comment|VariantValue=NTMFS5C628NLT
@@ -1778,7 +1789,7 @@ ParamVariation788=ParameterName=ComponentLink1Description|VariantValue=http://ww
 ParamDesignator788=Q4
 ParamVariation789=ParameterName=ComponentLink1URL|VariantValue=http://www.onsemi.com/pub/Collateral/NTMFS5C628NL-D.PDF
 ParamDesignator789=Q4
-ParamVariation790=ParameterName=Current - Continuous Drain (Id) @ 25°C|VariantValue=-
+ParamVariation790=ParameterName=Current - Continuous Drain (Id) @ 25ç™ˆ|VariantValue=-
 ParamDesignator790=Q4
 ParamVariation791=ParameterName=Description|VariantValue=MOSFET N-CH 60V SO8FL
 ParamDesignator791=Q4
@@ -1804,7 +1815,7 @@ ParamVariation801=ParameterName=Manufacturer Part Number|VariantValue=NTMFS5C628
 ParamDesignator801=Q4
 ParamVariation802=ParameterName=Mounting Type|VariantValue=Surface Mount
 ParamDesignator802=Q4
-ParamVariation803=ParameterName=Operating Temperature|VariantValue=-55°C ~ 175°C (TJ)
+ParamVariation803=ParameterName=Operating Temperature|VariantValue=-55ç™ˆ ~ 175ç™ˆ (TJ)
 ParamDesignator803=Q4
 ParamVariation804=ParameterName=Package / Case|VariantValue=8-PowerTDFN
 ParamDesignator804=Q4
@@ -1842,9 +1853,9 @@ ParamVariation820=ParameterName=Supplier Part Number 2|VariantValue=NTMFS5C628NL
 ParamDesignator820=Q4
 ParamVariation821=ParameterName=Technology|VariantValue=MOSFET (Metal Oxide)
 ParamDesignator821=Q4
-ParamVariation822=ParameterName=Vgs (Max)|VariantValue=±20V
+ParamVariation822=ParameterName=Vgs (Max)|VariantValue=?0V
 ParamDesignator822=Q4
-ParamVariation823=ParameterName=Vgs(th) (Max) @ Id|VariantValue=2V @ 135µA
+ParamVariation823=ParameterName=Vgs(th) (Max) @ Id|VariantValue=2V @ 135ç¤Ž
 ParamDesignator823=Q4
 ParamVariation824=ParameterName=Drain to Source Voltage (Vdss)|VariantValue=<no parameter>
 ParamDesignator824=Q4
@@ -1861,7 +1872,7 @@ ParamVariation829=ParameterName=ComponentLink1Description|VariantValue=http://ww
 ParamDesignator829=Q5
 ParamVariation830=ParameterName=ComponentLink1URL|VariantValue=http://www.onsemi.com/pub/Collateral/NTMFS5C628NL-D.PDF
 ParamDesignator830=Q5
-ParamVariation831=ParameterName=Current - Continuous Drain (Id) @ 25°C|VariantValue=-
+ParamVariation831=ParameterName=Current - Continuous Drain (Id) @ 25ç™ˆ|VariantValue=-
 ParamDesignator831=Q5
 ParamVariation832=ParameterName=Description|VariantValue=MOSFET N-CH 60V SO8FL
 ParamDesignator832=Q5
@@ -1887,7 +1898,7 @@ ParamVariation842=ParameterName=Manufacturer Part Number|VariantValue=NTMFS5C628
 ParamDesignator842=Q5
 ParamVariation843=ParameterName=Mounting Type|VariantValue=Surface Mount
 ParamDesignator843=Q5
-ParamVariation844=ParameterName=Operating Temperature|VariantValue=-55°C ~ 175°C (TJ)
+ParamVariation844=ParameterName=Operating Temperature|VariantValue=-55ç™ˆ ~ 175ç™ˆ (TJ)
 ParamDesignator844=Q5
 ParamVariation845=ParameterName=Package / Case|VariantValue=8-PowerTDFN
 ParamDesignator845=Q5
@@ -1925,9 +1936,9 @@ ParamVariation861=ParameterName=Supplier Part Number 2|VariantValue=NTMFS5C628NL
 ParamDesignator861=Q5
 ParamVariation862=ParameterName=Technology|VariantValue=MOSFET (Metal Oxide)
 ParamDesignator862=Q5
-ParamVariation863=ParameterName=Vgs (Max)|VariantValue=±20V
+ParamVariation863=ParameterName=Vgs (Max)|VariantValue=?0V
 ParamDesignator863=Q5
-ParamVariation864=ParameterName=Vgs(th) (Max) @ Id|VariantValue=2V @ 135µA
+ParamVariation864=ParameterName=Vgs(th) (Max) @ Id|VariantValue=2V @ 135ç¤Ž
 ParamDesignator864=Q5
 Variation23=Designator=Q6|UniqueId=\DVTMVPOV\HYAHTURR|Kind=2|AlternatePart=NTMFS5C628NLT|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=CustomComponents.SchLib|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=NTMFS5C628NLT|AltLibLink_UseLibraryName=False|AltLibLink_SourceLibraryName=CustomComponents.SchLib|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName= |AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=SO8FL_FILL|AltLibLink_IsSameFootprint=True
 ParamVariation865=ParameterName=Comment|VariantValue=NTMFS5C628NLT
@@ -1940,7 +1951,7 @@ ParamVariation868=ParameterName=ComponentLink1Description|VariantValue=http://ww
 ParamDesignator868=Q6
 ParamVariation869=ParameterName=ComponentLink1URL|VariantValue=http://www.onsemi.com/pub/Collateral/NTMFS5C628NL-D.PDF
 ParamDesignator869=Q6
-ParamVariation870=ParameterName=Current - Continuous Drain (Id) @ 25°C|VariantValue=-
+ParamVariation870=ParameterName=Current - Continuous Drain (Id) @ 25ç™ˆ|VariantValue=-
 ParamDesignator870=Q6
 ParamVariation871=ParameterName=Description|VariantValue=MOSFET N-CH 60V SO8FL
 ParamDesignator871=Q6
@@ -1966,7 +1977,7 @@ ParamVariation881=ParameterName=Manufacturer Part Number|VariantValue=NTMFS5C628
 ParamDesignator881=Q6
 ParamVariation882=ParameterName=Mounting Type|VariantValue=Surface Mount
 ParamDesignator882=Q6
-ParamVariation883=ParameterName=Operating Temperature|VariantValue=-55°C ~ 175°C (TJ)
+ParamVariation883=ParameterName=Operating Temperature|VariantValue=-55ç™ˆ ~ 175ç™ˆ (TJ)
 ParamDesignator883=Q6
 ParamVariation884=ParameterName=Package / Case|VariantValue=8-PowerTDFN
 ParamDesignator884=Q6
@@ -2004,9 +2015,9 @@ ParamVariation900=ParameterName=Supplier Part Number 2|VariantValue=NTMFS5C628NL
 ParamDesignator900=Q6
 ParamVariation901=ParameterName=Technology|VariantValue=MOSFET (Metal Oxide)
 ParamDesignator901=Q6
-ParamVariation902=ParameterName=Vgs (Max)|VariantValue=±20V
+ParamVariation902=ParameterName=Vgs (Max)|VariantValue=?0V
 ParamDesignator902=Q6
-ParamVariation903=ParameterName=Vgs(th) (Max) @ Id|VariantValue=2V @ 135µA
+ParamVariation903=ParameterName=Vgs(th) (Max) @ Id|VariantValue=2V @ 135ç¤Ž
 ParamDesignator903=Q6
 ParamVariation904=ParameterName=Drain to Source Voltage (Vdss)|VariantValue=<no parameter>
 ParamDesignator904=Q6
@@ -2023,7 +2034,7 @@ ParamVariation909=ParameterName=ComponentLink1Description|VariantValue=http://ww
 ParamDesignator909=Q7
 ParamVariation910=ParameterName=ComponentLink1URL|VariantValue=http://www.onsemi.com/pub/Collateral/NTMFS5C628NL-D.PDF
 ParamDesignator910=Q7
-ParamVariation911=ParameterName=Current - Continuous Drain (Id) @ 25°C|VariantValue=-
+ParamVariation911=ParameterName=Current - Continuous Drain (Id) @ 25ç™ˆ|VariantValue=-
 ParamDesignator911=Q7
 ParamVariation912=ParameterName=Description|VariantValue=MOSFET N-CH 60V SO8FL
 ParamDesignator912=Q7
@@ -2049,7 +2060,7 @@ ParamVariation922=ParameterName=Manufacturer Part Number|VariantValue=NTMFS5C628
 ParamDesignator922=Q7
 ParamVariation923=ParameterName=Mounting Type|VariantValue=Surface Mount
 ParamDesignator923=Q7
-ParamVariation924=ParameterName=Operating Temperature|VariantValue=-55°C ~ 175°C (TJ)
+ParamVariation924=ParameterName=Operating Temperature|VariantValue=-55ç™ˆ ~ 175ç™ˆ (TJ)
 ParamDesignator924=Q7
 ParamVariation925=ParameterName=Package / Case|VariantValue=8-PowerTDFN
 ParamDesignator925=Q7
@@ -2087,9 +2098,9 @@ ParamVariation941=ParameterName=Supplier Part Number 2|VariantValue=NTMFS5C628NL
 ParamDesignator941=Q7
 ParamVariation942=ParameterName=Technology|VariantValue=MOSFET (Metal Oxide)
 ParamDesignator942=Q7
-ParamVariation943=ParameterName=Vgs (Max)|VariantValue=±20V
+ParamVariation943=ParameterName=Vgs (Max)|VariantValue=?0V
 ParamDesignator943=Q7
-ParamVariation944=ParameterName=Vgs(th) (Max) @ Id|VariantValue=2V @ 135µA
+ParamVariation944=ParameterName=Vgs(th) (Max) @ Id|VariantValue=2V @ 135ç¤Ž
 ParamDesignator944=Q7
 Variation25=Designator=Q8|UniqueId=\DVTMVPOV\WIRPJXUE|Kind=2|AlternatePart=NTMFS5C628NLT|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=CustomComponents.SchLib|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=NTMFS5C628NLT|AltLibLink_UseLibraryName=False|AltLibLink_SourceLibraryName=CustomComponents.SchLib|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName= |AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=SO8FL|AltLibLink_IsSameFootprint=False
 ParamVariation945=ParameterName=Comment|VariantValue=NTMFS5C628NLT
@@ -2102,7 +2113,7 @@ ParamVariation948=ParameterName=ComponentLink1Description|VariantValue=http://ww
 ParamDesignator948=Q8
 ParamVariation949=ParameterName=ComponentLink1URL|VariantValue=http://www.onsemi.com/pub/Collateral/NTMFS5C628NL-D.PDF
 ParamDesignator949=Q8
-ParamVariation950=ParameterName=Current - Continuous Drain (Id) @ 25°C|VariantValue=-
+ParamVariation950=ParameterName=Current - Continuous Drain (Id) @ 25ç™ˆ|VariantValue=-
 ParamDesignator950=Q8
 ParamVariation951=ParameterName=Description|VariantValue=MOSFET N-CH 60V SO8FL
 ParamDesignator951=Q8
@@ -2128,7 +2139,7 @@ ParamVariation961=ParameterName=Manufacturer Part Number|VariantValue=NTMFS5C628
 ParamDesignator961=Q8
 ParamVariation962=ParameterName=Mounting Type|VariantValue=Surface Mount
 ParamDesignator962=Q8
-ParamVariation963=ParameterName=Operating Temperature|VariantValue=-55°C ~ 175°C (TJ)
+ParamVariation963=ParameterName=Operating Temperature|VariantValue=-55ç™ˆ ~ 175ç™ˆ (TJ)
 ParamDesignator963=Q8
 ParamVariation964=ParameterName=Package / Case|VariantValue=8-PowerTDFN
 ParamDesignator964=Q8
@@ -2166,9 +2177,9 @@ ParamVariation980=ParameterName=Supplier Part Number 2|VariantValue=NTMFS5C628NL
 ParamDesignator980=Q8
 ParamVariation981=ParameterName=Technology|VariantValue=MOSFET (Metal Oxide)
 ParamDesignator981=Q8
-ParamVariation982=ParameterName=Vgs (Max)|VariantValue=±20V
+ParamVariation982=ParameterName=Vgs (Max)|VariantValue=?0V
 ParamDesignator982=Q8
-ParamVariation983=ParameterName=Vgs(th) (Max) @ Id|VariantValue=2V @ 135µA
+ParamVariation983=ParameterName=Vgs(th) (Max) @ Id|VariantValue=2V @ 135ç¤Ž
 ParamDesignator983=Q8
 Variation26=Designator=Q9|UniqueId=\DVTMVPOV\FUYBIKVH|Kind=2|AlternatePart=NTMFS5C628NLT|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=CustomComponents.SchLib|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=NTMFS5C628NLT|AltLibLink_UseLibraryName=False|AltLibLink_SourceLibraryName=CustomComponents.SchLib|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName= |AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=SO8FL|AltLibLink_IsSameFootprint=False
 ParamVariation984=ParameterName=Comment|VariantValue=NTMFS5C628NLT
@@ -2181,7 +2192,7 @@ ParamVariation987=ParameterName=ComponentLink1Description|VariantValue=http://ww
 ParamDesignator987=Q9
 ParamVariation988=ParameterName=ComponentLink1URL|VariantValue=http://www.onsemi.com/pub/Collateral/NTMFS5C628NL-D.PDF
 ParamDesignator988=Q9
-ParamVariation989=ParameterName=Current - Continuous Drain (Id) @ 25°C|VariantValue=-
+ParamVariation989=ParameterName=Current - Continuous Drain (Id) @ 25ç™ˆ|VariantValue=-
 ParamDesignator989=Q9
 ParamVariation990=ParameterName=Description|VariantValue=MOSFET N-CH 60V SO8FL
 ParamDesignator990=Q9
@@ -2207,7 +2218,7 @@ ParamVariation1000=ParameterName=Manufacturer Part Number|VariantValue=NTMFS5C62
 ParamDesignator1000=Q9
 ParamVariation1001=ParameterName=Mounting Type|VariantValue=Surface Mount
 ParamDesignator1001=Q9
-ParamVariation1002=ParameterName=Operating Temperature|VariantValue=-55°C ~ 175°C (TJ)
+ParamVariation1002=ParameterName=Operating Temperature|VariantValue=-55ç™ˆ ~ 175ç™ˆ (TJ)
 ParamDesignator1002=Q9
 ParamVariation1003=ParameterName=Package / Case|VariantValue=8-PowerTDFN
 ParamDesignator1003=Q9
@@ -2245,9 +2256,9 @@ ParamVariation1019=ParameterName=Supplier Part Number 2|VariantValue=NTMFS5C628N
 ParamDesignator1019=Q9
 ParamVariation1020=ParameterName=Technology|VariantValue=MOSFET (Metal Oxide)
 ParamDesignator1020=Q9
-ParamVariation1021=ParameterName=Vgs (Max)|VariantValue=±20V
+ParamVariation1021=ParameterName=Vgs (Max)|VariantValue=?0V
 ParamDesignator1021=Q9
-ParamVariation1022=ParameterName=Vgs(th) (Max) @ Id|VariantValue=2V @ 135µA
+ParamVariation1022=ParameterName=Vgs(th) (Max) @ Id|VariantValue=2V @ 135ç¤Ž
 ParamDesignator1022=Q9
 Variation27=Designator=Q10|UniqueId=\DVTMVPOV\IVWRQPOG|Kind=2|AlternatePart=NTMFS5C628NLT|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=CustomComponents.SchLib|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=NTMFS5C628NLT|AltLibLink_UseLibraryName=False|AltLibLink_SourceLibraryName=CustomComponents.SchLib|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName= |AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=SO8FL|AltLibLink_IsSameFootprint=False
 ParamVariation1023=ParameterName=Comment|VariantValue=NTMFS5C628NLT
@@ -2260,7 +2271,7 @@ ParamVariation1026=ParameterName=ComponentLink1Description|VariantValue=http://w
 ParamDesignator1026=Q10
 ParamVariation1027=ParameterName=ComponentLink1URL|VariantValue=http://www.onsemi.com/pub/Collateral/NTMFS5C628NL-D.PDF
 ParamDesignator1027=Q10
-ParamVariation1028=ParameterName=Current - Continuous Drain (Id) @ 25°C|VariantValue=-
+ParamVariation1028=ParameterName=Current - Continuous Drain (Id) @ 25ç™ˆ|VariantValue=-
 ParamDesignator1028=Q10
 ParamVariation1029=ParameterName=Description|VariantValue=MOSFET N-CH 60V SO8FL
 ParamDesignator1029=Q10
@@ -2286,7 +2297,7 @@ ParamVariation1039=ParameterName=Manufacturer Part Number|VariantValue=NTMFS5C62
 ParamDesignator1039=Q10
 ParamVariation1040=ParameterName=Mounting Type|VariantValue=Surface Mount
 ParamDesignator1040=Q10
-ParamVariation1041=ParameterName=Operating Temperature|VariantValue=-55°C ~ 175°C (TJ)
+ParamVariation1041=ParameterName=Operating Temperature|VariantValue=-55ç™ˆ ~ 175ç™ˆ (TJ)
 ParamDesignator1041=Q10
 ParamVariation1042=ParameterName=Package / Case|VariantValue=8-PowerTDFN
 ParamDesignator1042=Q10
@@ -2324,9 +2335,9 @@ ParamVariation1058=ParameterName=Supplier Part Number 2|VariantValue=NTMFS5C628N
 ParamDesignator1058=Q10
 ParamVariation1059=ParameterName=Technology|VariantValue=MOSFET (Metal Oxide)
 ParamDesignator1059=Q10
-ParamVariation1060=ParameterName=Vgs (Max)|VariantValue=±20V
+ParamVariation1060=ParameterName=Vgs (Max)|VariantValue=?0V
 ParamDesignator1060=Q10
-ParamVariation1061=ParameterName=Vgs(th) (Max) @ Id|VariantValue=2V @ 135µA
+ParamVariation1061=ParameterName=Vgs(th) (Max) @ Id|VariantValue=2V @ 135ç¤Ž
 ParamDesignator1061=Q10
 Variation28=Designator=Q11|UniqueId=\DVTMVPOV\BMHRFYKN|Kind=2|AlternatePart=NTMFS5C628NLT|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=CustomComponents.SchLib|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=NTMFS5C628NLT|AltLibLink_UseLibraryName=False|AltLibLink_SourceLibraryName=CustomComponents.SchLib|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName= |AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=SO8FL|AltLibLink_IsSameFootprint=False
 ParamVariation1062=ParameterName=Comment|VariantValue=NTMFS5C628NLT
@@ -2339,7 +2350,7 @@ ParamVariation1065=ParameterName=ComponentLink1Description|VariantValue=http://w
 ParamDesignator1065=Q11
 ParamVariation1066=ParameterName=ComponentLink1URL|VariantValue=http://www.onsemi.com/pub/Collateral/NTMFS5C628NL-D.PDF
 ParamDesignator1066=Q11
-ParamVariation1067=ParameterName=Current - Continuous Drain (Id) @ 25°C|VariantValue=-
+ParamVariation1067=ParameterName=Current - Continuous Drain (Id) @ 25ç™ˆ|VariantValue=-
 ParamDesignator1067=Q11
 ParamVariation1068=ParameterName=Description|VariantValue=MOSFET N-CH 60V SO8FL
 ParamDesignator1068=Q11
@@ -2365,7 +2376,7 @@ ParamVariation1078=ParameterName=Manufacturer Part Number|VariantValue=NTMFS5C62
 ParamDesignator1078=Q11
 ParamVariation1079=ParameterName=Mounting Type|VariantValue=Surface Mount
 ParamDesignator1079=Q11
-ParamVariation1080=ParameterName=Operating Temperature|VariantValue=-55°C ~ 175°C (TJ)
+ParamVariation1080=ParameterName=Operating Temperature|VariantValue=-55ç™ˆ ~ 175ç™ˆ (TJ)
 ParamDesignator1080=Q11
 ParamVariation1081=ParameterName=Package / Case|VariantValue=8-PowerTDFN
 ParamDesignator1081=Q11
@@ -2403,9 +2414,9 @@ ParamVariation1097=ParameterName=Supplier Part Number 2|VariantValue=NTMFS5C628N
 ParamDesignator1097=Q11
 ParamVariation1098=ParameterName=Technology|VariantValue=MOSFET (Metal Oxide)
 ParamDesignator1098=Q11
-ParamVariation1099=ParameterName=Vgs (Max)|VariantValue=±20V
+ParamVariation1099=ParameterName=Vgs (Max)|VariantValue=?0V
 ParamDesignator1099=Q11
-ParamVariation1100=ParameterName=Vgs(th) (Max) @ Id|VariantValue=2V @ 135µA
+ParamVariation1100=ParameterName=Vgs(th) (Max) @ Id|VariantValue=2V @ 135ç¤Ž
 ParamDesignator1100=Q11
 Variation29=Designator=Q12|UniqueId=\DVTMVPOV\WBRSURDP|Kind=2|AlternatePart=NTMFS5C628NLT|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=CustomComponents.SchLib|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=NTMFS5C628NLT|AltLibLink_UseLibraryName=False|AltLibLink_SourceLibraryName=CustomComponents.SchLib|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName= |AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=SO8FL|AltLibLink_IsSameFootprint=False
 ParamVariation1101=ParameterName=Comment|VariantValue=NTMFS5C628NLT
@@ -2418,7 +2429,7 @@ ParamVariation1104=ParameterName=ComponentLink1Description|VariantValue=http://w
 ParamDesignator1104=Q12
 ParamVariation1105=ParameterName=ComponentLink1URL|VariantValue=http://www.onsemi.com/pub/Collateral/NTMFS5C628NL-D.PDF
 ParamDesignator1105=Q12
-ParamVariation1106=ParameterName=Current - Continuous Drain (Id) @ 25°C|VariantValue=-
+ParamVariation1106=ParameterName=Current - Continuous Drain (Id) @ 25ç™ˆ|VariantValue=-
 ParamDesignator1106=Q12
 ParamVariation1107=ParameterName=Description|VariantValue=MOSFET N-CH 60V SO8FL
 ParamDesignator1107=Q12
@@ -2444,7 +2455,7 @@ ParamVariation1117=ParameterName=Manufacturer Part Number|VariantValue=NTMFS5C62
 ParamDesignator1117=Q12
 ParamVariation1118=ParameterName=Mounting Type|VariantValue=Surface Mount
 ParamDesignator1118=Q12
-ParamVariation1119=ParameterName=Operating Temperature|VariantValue=-55°C ~ 175°C (TJ)
+ParamVariation1119=ParameterName=Operating Temperature|VariantValue=-55ç™ˆ ~ 175ç™ˆ (TJ)
 ParamDesignator1119=Q12
 ParamVariation1120=ParameterName=Package / Case|VariantValue=8-PowerTDFN
 ParamDesignator1120=Q12
@@ -2482,9 +2493,9 @@ ParamVariation1136=ParameterName=Supplier Part Number 2|VariantValue=NTMFS5C628N
 ParamDesignator1136=Q12
 ParamVariation1137=ParameterName=Technology|VariantValue=MOSFET (Metal Oxide)
 ParamDesignator1137=Q12
-ParamVariation1138=ParameterName=Vgs (Max)|VariantValue=±20V
+ParamVariation1138=ParameterName=Vgs (Max)|VariantValue=?0V
 ParamDesignator1138=Q12
-ParamVariation1139=ParameterName=Vgs(th) (Max) @ Id|VariantValue=2V @ 135µA
+ParamVariation1139=ParameterName=Vgs(th) (Max) @ Id|VariantValue=2V @ 135ç¤Ž
 ParamDesignator1139=Q12
 Variation30=Designator=Q13|UniqueId=\VNYOKOKT\AXGNHFLY|Kind=2|AlternatePart=NTMFS5C628NLT|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=CustomComponents.SchLib|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=NTMFS5C628NLT|AltLibLink_UseLibraryName=False|AltLibLink_SourceLibraryName=CustomComponents.SchLib|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName= |AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=SO8FL|AltLibLink_IsSameFootprint=False
 ParamVariation1140=ParameterName=Comment|VariantValue=NTMFS5C628NLT
@@ -2497,7 +2508,7 @@ ParamVariation1143=ParameterName=ComponentLink1Description|VariantValue=http://w
 ParamDesignator1143=Q13
 ParamVariation1144=ParameterName=ComponentLink1URL|VariantValue=http://www.onsemi.com/pub/Collateral/NTMFS5C628NL-D.PDF
 ParamDesignator1144=Q13
-ParamVariation1145=ParameterName=Current - Continuous Drain (Id) @ 25°C|VariantValue=-
+ParamVariation1145=ParameterName=Current - Continuous Drain (Id) @ 25ç™ˆ|VariantValue=-
 ParamDesignator1145=Q13
 ParamVariation1146=ParameterName=Description|VariantValue=MOSFET N-CH 60V SO8FL
 ParamDesignator1146=Q13
@@ -2523,7 +2534,7 @@ ParamVariation1156=ParameterName=Manufacturer Part Number|VariantValue=NTMFS5C62
 ParamDesignator1156=Q13
 ParamVariation1157=ParameterName=Mounting Type|VariantValue=Surface Mount
 ParamDesignator1157=Q13
-ParamVariation1158=ParameterName=Operating Temperature|VariantValue=-55°C ~ 175°C (TJ)
+ParamVariation1158=ParameterName=Operating Temperature|VariantValue=-55ç™ˆ ~ 175ç™ˆ (TJ)
 ParamDesignator1158=Q13
 ParamVariation1159=ParameterName=Package / Case|VariantValue=8-PowerTDFN
 ParamDesignator1159=Q13
@@ -2561,9 +2572,9 @@ ParamVariation1175=ParameterName=Supplier Part Number 2|VariantValue=NTMFS5C628N
 ParamDesignator1175=Q13
 ParamVariation1176=ParameterName=Technology|VariantValue=MOSFET (Metal Oxide)
 ParamDesignator1176=Q13
-ParamVariation1177=ParameterName=Vgs (Max)|VariantValue=±20V
+ParamVariation1177=ParameterName=Vgs (Max)|VariantValue=?0V
 ParamDesignator1177=Q13
-ParamVariation1178=ParameterName=Vgs(th) (Max) @ Id|VariantValue=2V @ 135µA
+ParamVariation1178=ParameterName=Vgs(th) (Max) @ Id|VariantValue=2V @ 135ç¤Ž
 ParamDesignator1178=Q13
 Variation31=Designator=Q14|UniqueId=\VNYOKOKT\MHPGIVYV|Kind=2|AlternatePart=NTMFS5C628NLT|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=CustomComponents.SchLib|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=NTMFS5C628NLT|AltLibLink_UseLibraryName=False|AltLibLink_SourceLibraryName=CustomComponents.SchLib|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName= |AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=SO8FL_FILL|AltLibLink_IsSameFootprint=True
 ParamVariation1179=ParameterName=Comment|VariantValue=NTMFS5C628NLT
@@ -2576,7 +2587,7 @@ ParamVariation1182=ParameterName=ComponentLink1Description|VariantValue=http://w
 ParamDesignator1182=Q14
 ParamVariation1183=ParameterName=ComponentLink1URL|VariantValue=http://www.onsemi.com/pub/Collateral/NTMFS5C628NL-D.PDF
 ParamDesignator1183=Q14
-ParamVariation1184=ParameterName=Current - Continuous Drain (Id) @ 25°C|VariantValue=-
+ParamVariation1184=ParameterName=Current - Continuous Drain (Id) @ 25ç™ˆ|VariantValue=-
 ParamDesignator1184=Q14
 ParamVariation1185=ParameterName=Description|VariantValue=MOSFET N-CH 60V SO8FL
 ParamDesignator1185=Q14
@@ -2602,7 +2613,7 @@ ParamVariation1195=ParameterName=Manufacturer Part Number|VariantValue=NTMFS5C62
 ParamDesignator1195=Q14
 ParamVariation1196=ParameterName=Mounting Type|VariantValue=Surface Mount
 ParamDesignator1196=Q14
-ParamVariation1197=ParameterName=Operating Temperature|VariantValue=-55°C ~ 175°C (TJ)
+ParamVariation1197=ParameterName=Operating Temperature|VariantValue=-55ç™ˆ ~ 175ç™ˆ (TJ)
 ParamDesignator1197=Q14
 ParamVariation1198=ParameterName=Package / Case|VariantValue=8-PowerTDFN
 ParamDesignator1198=Q14
@@ -2640,9 +2651,9 @@ ParamVariation1214=ParameterName=Supplier Part Number 2|VariantValue=NTMFS5C628N
 ParamDesignator1214=Q14
 ParamVariation1215=ParameterName=Technology|VariantValue=MOSFET (Metal Oxide)
 ParamDesignator1215=Q14
-ParamVariation1216=ParameterName=Vgs (Max)|VariantValue=±20V
+ParamVariation1216=ParameterName=Vgs (Max)|VariantValue=?0V
 ParamDesignator1216=Q14
-ParamVariation1217=ParameterName=Vgs(th) (Max) @ Id|VariantValue=2V @ 135µA
+ParamVariation1217=ParameterName=Vgs(th) (Max) @ Id|VariantValue=2V @ 135ç¤Ž
 ParamDesignator1217=Q14
 ParamVariation1218=ParameterName=Drain to Source Voltage (Vdss)|VariantValue=<no parameter>
 ParamDesignator1218=Q14
@@ -2659,7 +2670,7 @@ ParamVariation1223=ParameterName=ComponentLink1Description|VariantValue=http://w
 ParamDesignator1223=Q15
 ParamVariation1224=ParameterName=ComponentLink1URL|VariantValue=http://www.onsemi.com/pub/Collateral/NTMFS5C628NL-D.PDF
 ParamDesignator1224=Q15
-ParamVariation1225=ParameterName=Current - Continuous Drain (Id) @ 25°C|VariantValue=-
+ParamVariation1225=ParameterName=Current - Continuous Drain (Id) @ 25ç™ˆ|VariantValue=-
 ParamDesignator1225=Q15
 ParamVariation1226=ParameterName=Description|VariantValue=MOSFET N-CH 60V SO8FL
 ParamDesignator1226=Q15
@@ -2685,7 +2696,7 @@ ParamVariation1236=ParameterName=Manufacturer Part Number|VariantValue=NTMFS5C62
 ParamDesignator1236=Q15
 ParamVariation1237=ParameterName=Mounting Type|VariantValue=Surface Mount
 ParamDesignator1237=Q15
-ParamVariation1238=ParameterName=Operating Temperature|VariantValue=-55°C ~ 175°C (TJ)
+ParamVariation1238=ParameterName=Operating Temperature|VariantValue=-55ç™ˆ ~ 175ç™ˆ (TJ)
 ParamDesignator1238=Q15
 ParamVariation1239=ParameterName=Package / Case|VariantValue=8-PowerTDFN
 ParamDesignator1239=Q15
@@ -2723,9 +2734,9 @@ ParamVariation1255=ParameterName=Supplier Part Number 2|VariantValue=NTMFS5C628N
 ParamDesignator1255=Q15
 ParamVariation1256=ParameterName=Technology|VariantValue=MOSFET (Metal Oxide)
 ParamDesignator1256=Q15
-ParamVariation1257=ParameterName=Vgs (Max)|VariantValue=±20V
+ParamVariation1257=ParameterName=Vgs (Max)|VariantValue=?0V
 ParamDesignator1257=Q15
-ParamVariation1258=ParameterName=Vgs(th) (Max) @ Id|VariantValue=2V @ 135µA
+ParamVariation1258=ParameterName=Vgs(th) (Max) @ Id|VariantValue=2V @ 135ç¤Ž
 ParamDesignator1258=Q15
 Variation33=Designator=Q16|UniqueId=\VNYOKOKT\BLOGXPJV|Kind=2|AlternatePart=NTMFS5C628NLT|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=CustomComponents.SchLib|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=NTMFS5C628NLT|AltLibLink_UseLibraryName=False|AltLibLink_SourceLibraryName=CustomComponents.SchLib|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName= |AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=SO8FL_FILL|AltLibLink_IsSameFootprint=True
 ParamVariation1259=ParameterName=Comment|VariantValue=NTMFS5C628NLT
@@ -2738,7 +2749,7 @@ ParamVariation1262=ParameterName=ComponentLink1Description|VariantValue=http://w
 ParamDesignator1262=Q16
 ParamVariation1263=ParameterName=ComponentLink1URL|VariantValue=http://www.onsemi.com/pub/Collateral/NTMFS5C628NL-D.PDF
 ParamDesignator1263=Q16
-ParamVariation1264=ParameterName=Current - Continuous Drain (Id) @ 25°C|VariantValue=-
+ParamVariation1264=ParameterName=Current - Continuous Drain (Id) @ 25ç™ˆ|VariantValue=-
 ParamDesignator1264=Q16
 ParamVariation1265=ParameterName=Description|VariantValue=MOSFET N-CH 60V SO8FL
 ParamDesignator1265=Q16
@@ -2764,7 +2775,7 @@ ParamVariation1275=ParameterName=Manufacturer Part Number|VariantValue=NTMFS5C62
 ParamDesignator1275=Q16
 ParamVariation1276=ParameterName=Mounting Type|VariantValue=Surface Mount
 ParamDesignator1276=Q16
-ParamVariation1277=ParameterName=Operating Temperature|VariantValue=-55°C ~ 175°C (TJ)
+ParamVariation1277=ParameterName=Operating Temperature|VariantValue=-55ç™ˆ ~ 175ç™ˆ (TJ)
 ParamDesignator1277=Q16
 ParamVariation1278=ParameterName=Package / Case|VariantValue=8-PowerTDFN
 ParamDesignator1278=Q16
@@ -2802,9 +2813,9 @@ ParamVariation1294=ParameterName=Supplier Part Number 2|VariantValue=NTMFS5C628N
 ParamDesignator1294=Q16
 ParamVariation1295=ParameterName=Technology|VariantValue=MOSFET (Metal Oxide)
 ParamDesignator1295=Q16
-ParamVariation1296=ParameterName=Vgs (Max)|VariantValue=±20V
+ParamVariation1296=ParameterName=Vgs (Max)|VariantValue=?0V
 ParamDesignator1296=Q16
-ParamVariation1297=ParameterName=Vgs(th) (Max) @ Id|VariantValue=2V @ 135µA
+ParamVariation1297=ParameterName=Vgs(th) (Max) @ Id|VariantValue=2V @ 135ç¤Ž
 ParamDesignator1297=Q16
 ParamVariation1298=ParameterName=Drain to Source Voltage (Vdss)|VariantValue=<no parameter>
 ParamDesignator1298=Q16
@@ -2821,7 +2832,7 @@ ParamVariation1303=ParameterName=ComponentLink1Description|VariantValue=http://w
 ParamDesignator1303=Q17
 ParamVariation1304=ParameterName=ComponentLink1URL|VariantValue=http://www.onsemi.com/pub/Collateral/NTMFS5C628NL-D.PDF
 ParamDesignator1304=Q17
-ParamVariation1305=ParameterName=Current - Continuous Drain (Id) @ 25°C|VariantValue=-
+ParamVariation1305=ParameterName=Current - Continuous Drain (Id) @ 25ç™ˆ|VariantValue=-
 ParamDesignator1305=Q17
 ParamVariation1306=ParameterName=Description|VariantValue=MOSFET N-CH 60V SO8FL
 ParamDesignator1306=Q17
@@ -2847,7 +2858,7 @@ ParamVariation1316=ParameterName=Manufacturer Part Number|VariantValue=NTMFS5C62
 ParamDesignator1316=Q17
 ParamVariation1317=ParameterName=Mounting Type|VariantValue=Surface Mount
 ParamDesignator1317=Q17
-ParamVariation1318=ParameterName=Operating Temperature|VariantValue=-55°C ~ 175°C (TJ)
+ParamVariation1318=ParameterName=Operating Temperature|VariantValue=-55ç™ˆ ~ 175ç™ˆ (TJ)
 ParamDesignator1318=Q17
 ParamVariation1319=ParameterName=Package / Case|VariantValue=8-PowerTDFN
 ParamDesignator1319=Q17
@@ -2885,9 +2896,9 @@ ParamVariation1335=ParameterName=Supplier Part Number 2|VariantValue=NTMFS5C628N
 ParamDesignator1335=Q17
 ParamVariation1336=ParameterName=Technology|VariantValue=MOSFET (Metal Oxide)
 ParamDesignator1336=Q17
-ParamVariation1337=ParameterName=Vgs (Max)|VariantValue=±20V
+ParamVariation1337=ParameterName=Vgs (Max)|VariantValue=?0V
 ParamDesignator1337=Q17
-ParamVariation1338=ParameterName=Vgs(th) (Max) @ Id|VariantValue=2V @ 135µA
+ParamVariation1338=ParameterName=Vgs(th) (Max) @ Id|VariantValue=2V @ 135ç¤Ž
 ParamDesignator1338=Q17
 Variation35=Designator=Q18|UniqueId=\VNYOKOKT\EHQSQLSN|Kind=2|AlternatePart=NTMFS5C628NLT|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=CustomComponents.SchLib|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=NTMFS5C628NLT|AltLibLink_UseLibraryName=False|AltLibLink_SourceLibraryName=CustomComponents.SchLib|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName= |AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=SO8FL_FILL|AltLibLink_IsSameFootprint=True
 ParamVariation1339=ParameterName=Comment|VariantValue=NTMFS5C628NLT
@@ -2900,7 +2911,7 @@ ParamVariation1342=ParameterName=ComponentLink1Description|VariantValue=http://w
 ParamDesignator1342=Q18
 ParamVariation1343=ParameterName=ComponentLink1URL|VariantValue=http://www.onsemi.com/pub/Collateral/NTMFS5C628NL-D.PDF
 ParamDesignator1343=Q18
-ParamVariation1344=ParameterName=Current - Continuous Drain (Id) @ 25°C|VariantValue=-
+ParamVariation1344=ParameterName=Current - Continuous Drain (Id) @ 25ç™ˆ|VariantValue=-
 ParamDesignator1344=Q18
 ParamVariation1345=ParameterName=Description|VariantValue=MOSFET N-CH 60V SO8FL
 ParamDesignator1345=Q18
@@ -2926,7 +2937,7 @@ ParamVariation1355=ParameterName=Manufacturer Part Number|VariantValue=NTMFS5C62
 ParamDesignator1355=Q18
 ParamVariation1356=ParameterName=Mounting Type|VariantValue=Surface Mount
 ParamDesignator1356=Q18
-ParamVariation1357=ParameterName=Operating Temperature|VariantValue=-55°C ~ 175°C (TJ)
+ParamVariation1357=ParameterName=Operating Temperature|VariantValue=-55ç™ˆ ~ 175ç™ˆ (TJ)
 ParamDesignator1357=Q18
 ParamVariation1358=ParameterName=Package / Case|VariantValue=8-PowerTDFN
 ParamDesignator1358=Q18
@@ -2964,9 +2975,9 @@ ParamVariation1374=ParameterName=Supplier Part Number 2|VariantValue=NTMFS5C628N
 ParamDesignator1374=Q18
 ParamVariation1375=ParameterName=Technology|VariantValue=MOSFET (Metal Oxide)
 ParamDesignator1375=Q18
-ParamVariation1376=ParameterName=Vgs (Max)|VariantValue=±20V
+ParamVariation1376=ParameterName=Vgs (Max)|VariantValue=?0V
 ParamDesignator1376=Q18
-ParamVariation1377=ParameterName=Vgs(th) (Max) @ Id|VariantValue=2V @ 135µA
+ParamVariation1377=ParameterName=Vgs(th) (Max) @ Id|VariantValue=2V @ 135ç¤Ž
 ParamDesignator1377=Q18
 ParamVariation1378=ParameterName=Drain to Source Voltage (Vdss)|VariantValue=<no parameter>
 ParamDesignator1378=Q18
@@ -2983,7 +2994,7 @@ ParamVariation1383=ParameterName=ComponentLink1Description|VariantValue=http://w
 ParamDesignator1383=Q19
 ParamVariation1384=ParameterName=ComponentLink1URL|VariantValue=http://www.onsemi.com/pub/Collateral/NTMFS5C628NL-D.PDF
 ParamDesignator1384=Q19
-ParamVariation1385=ParameterName=Current - Continuous Drain (Id) @ 25°C|VariantValue=-
+ParamVariation1385=ParameterName=Current - Continuous Drain (Id) @ 25ç™ˆ|VariantValue=-
 ParamDesignator1385=Q19
 ParamVariation1386=ParameterName=Description|VariantValue=MOSFET N-CH 60V SO8FL
 ParamDesignator1386=Q19
@@ -3009,7 +3020,7 @@ ParamVariation1396=ParameterName=Manufacturer Part Number|VariantValue=NTMFS5C62
 ParamDesignator1396=Q19
 ParamVariation1397=ParameterName=Mounting Type|VariantValue=Surface Mount
 ParamDesignator1397=Q19
-ParamVariation1398=ParameterName=Operating Temperature|VariantValue=-55°C ~ 175°C (TJ)
+ParamVariation1398=ParameterName=Operating Temperature|VariantValue=-55ç™ˆ ~ 175ç™ˆ (TJ)
 ParamDesignator1398=Q19
 ParamVariation1399=ParameterName=Package / Case|VariantValue=8-PowerTDFN
 ParamDesignator1399=Q19
@@ -3047,9 +3058,9 @@ ParamVariation1415=ParameterName=Supplier Part Number 2|VariantValue=NTMFS5C628N
 ParamDesignator1415=Q19
 ParamVariation1416=ParameterName=Technology|VariantValue=MOSFET (Metal Oxide)
 ParamDesignator1416=Q19
-ParamVariation1417=ParameterName=Vgs (Max)|VariantValue=±20V
+ParamVariation1417=ParameterName=Vgs (Max)|VariantValue=?0V
 ParamDesignator1417=Q19
-ParamVariation1418=ParameterName=Vgs(th) (Max) @ Id|VariantValue=2V @ 135µA
+ParamVariation1418=ParameterName=Vgs(th) (Max) @ Id|VariantValue=2V @ 135ç¤Ž
 ParamDesignator1418=Q19
 Variation37=Designator=Q20|UniqueId=\VNYOKOKT\KCSPFFUC|Kind=2|AlternatePart=NTMFS5C628NLT|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=CustomComponents.SchLib|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=NTMFS5C628NLT|AltLibLink_UseLibraryName=False|AltLibLink_SourceLibraryName=CustomComponents.SchLib|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName= |AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=SO8FL|AltLibLink_IsSameFootprint=False
 ParamVariation1419=ParameterName=Comment|VariantValue=NTMFS5C628NLT
@@ -3062,7 +3073,7 @@ ParamVariation1422=ParameterName=ComponentLink1Description|VariantValue=http://w
 ParamDesignator1422=Q20
 ParamVariation1423=ParameterName=ComponentLink1URL|VariantValue=http://www.onsemi.com/pub/Collateral/NTMFS5C628NL-D.PDF
 ParamDesignator1423=Q20
-ParamVariation1424=ParameterName=Current - Continuous Drain (Id) @ 25°C|VariantValue=-
+ParamVariation1424=ParameterName=Current - Continuous Drain (Id) @ 25ç™ˆ|VariantValue=-
 ParamDesignator1424=Q20
 ParamVariation1425=ParameterName=Description|VariantValue=MOSFET N-CH 60V SO8FL
 ParamDesignator1425=Q20
@@ -3088,7 +3099,7 @@ ParamVariation1435=ParameterName=Manufacturer Part Number|VariantValue=NTMFS5C62
 ParamDesignator1435=Q20
 ParamVariation1436=ParameterName=Mounting Type|VariantValue=Surface Mount
 ParamDesignator1436=Q20
-ParamVariation1437=ParameterName=Operating Temperature|VariantValue=-55°C ~ 175°C (TJ)
+ParamVariation1437=ParameterName=Operating Temperature|VariantValue=-55ç™ˆ ~ 175ç™ˆ (TJ)
 ParamDesignator1437=Q20
 ParamVariation1438=ParameterName=Package / Case|VariantValue=8-PowerTDFN
 ParamDesignator1438=Q20
@@ -3126,9 +3137,9 @@ ParamVariation1454=ParameterName=Supplier Part Number 2|VariantValue=NTMFS5C628N
 ParamDesignator1454=Q20
 ParamVariation1455=ParameterName=Technology|VariantValue=MOSFET (Metal Oxide)
 ParamDesignator1455=Q20
-ParamVariation1456=ParameterName=Vgs (Max)|VariantValue=±20V
+ParamVariation1456=ParameterName=Vgs (Max)|VariantValue=?0V
 ParamDesignator1456=Q20
-ParamVariation1457=ParameterName=Vgs(th) (Max) @ Id|VariantValue=2V @ 135µA
+ParamVariation1457=ParameterName=Vgs(th) (Max) @ Id|VariantValue=2V @ 135ç¤Ž
 ParamDesignator1457=Q20
 Variation38=Designator=Q21|UniqueId=\VNYOKOKT\DHQWGDQJ|Kind=2|AlternatePart=NTMFS5C628NLT|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=CustomComponents.SchLib|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=NTMFS5C628NLT|AltLibLink_UseLibraryName=False|AltLibLink_SourceLibraryName=CustomComponents.SchLib|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName= |AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=SO8FL|AltLibLink_IsSameFootprint=False
 ParamVariation1458=ParameterName=Comment|VariantValue=NTMFS5C628NLT
@@ -3141,7 +3152,7 @@ ParamVariation1461=ParameterName=ComponentLink1Description|VariantValue=http://w
 ParamDesignator1461=Q21
 ParamVariation1462=ParameterName=ComponentLink1URL|VariantValue=http://www.onsemi.com/pub/Collateral/NTMFS5C628NL-D.PDF
 ParamDesignator1462=Q21
-ParamVariation1463=ParameterName=Current - Continuous Drain (Id) @ 25°C|VariantValue=-
+ParamVariation1463=ParameterName=Current - Continuous Drain (Id) @ 25ç™ˆ|VariantValue=-
 ParamDesignator1463=Q21
 ParamVariation1464=ParameterName=Description|VariantValue=MOSFET N-CH 60V SO8FL
 ParamDesignator1464=Q21
@@ -3167,7 +3178,7 @@ ParamVariation1474=ParameterName=Manufacturer Part Number|VariantValue=NTMFS5C62
 ParamDesignator1474=Q21
 ParamVariation1475=ParameterName=Mounting Type|VariantValue=Surface Mount
 ParamDesignator1475=Q21
-ParamVariation1476=ParameterName=Operating Temperature|VariantValue=-55°C ~ 175°C (TJ)
+ParamVariation1476=ParameterName=Operating Temperature|VariantValue=-55ç™ˆ ~ 175ç™ˆ (TJ)
 ParamDesignator1476=Q21
 ParamVariation1477=ParameterName=Package / Case|VariantValue=8-PowerTDFN
 ParamDesignator1477=Q21
@@ -3205,9 +3216,9 @@ ParamVariation1493=ParameterName=Supplier Part Number 2|VariantValue=NTMFS5C628N
 ParamDesignator1493=Q21
 ParamVariation1494=ParameterName=Technology|VariantValue=MOSFET (Metal Oxide)
 ParamDesignator1494=Q21
-ParamVariation1495=ParameterName=Vgs (Max)|VariantValue=±20V
+ParamVariation1495=ParameterName=Vgs (Max)|VariantValue=?0V
 ParamDesignator1495=Q21
-ParamVariation1496=ParameterName=Vgs(th) (Max) @ Id|VariantValue=2V @ 135µA
+ParamVariation1496=ParameterName=Vgs(th) (Max) @ Id|VariantValue=2V @ 135ç¤Ž
 ParamDesignator1496=Q21
 Variation39=Designator=Q22|UniqueId=\VNYOKOKT\NVSBPLCD|Kind=2|AlternatePart=NTMFS5C628NLT|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=CustomComponents.SchLib|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=NTMFS5C628NLT|AltLibLink_UseLibraryName=False|AltLibLink_SourceLibraryName=CustomComponents.SchLib|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName= |AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=SO8FL|AltLibLink_IsSameFootprint=False
 ParamVariation1497=ParameterName=Comment|VariantValue=NTMFS5C628NLT
@@ -3220,7 +3231,7 @@ ParamVariation1500=ParameterName=ComponentLink1Description|VariantValue=http://w
 ParamDesignator1500=Q22
 ParamVariation1501=ParameterName=ComponentLink1URL|VariantValue=http://www.onsemi.com/pub/Collateral/NTMFS5C628NL-D.PDF
 ParamDesignator1501=Q22
-ParamVariation1502=ParameterName=Current - Continuous Drain (Id) @ 25°C|VariantValue=-
+ParamVariation1502=ParameterName=Current - Continuous Drain (Id) @ 25ç™ˆ|VariantValue=-
 ParamDesignator1502=Q22
 ParamVariation1503=ParameterName=Description|VariantValue=MOSFET N-CH 60V SO8FL
 ParamDesignator1503=Q22
@@ -3246,7 +3257,7 @@ ParamVariation1513=ParameterName=Manufacturer Part Number|VariantValue=NTMFS5C62
 ParamDesignator1513=Q22
 ParamVariation1514=ParameterName=Mounting Type|VariantValue=Surface Mount
 ParamDesignator1514=Q22
-ParamVariation1515=ParameterName=Operating Temperature|VariantValue=-55°C ~ 175°C (TJ)
+ParamVariation1515=ParameterName=Operating Temperature|VariantValue=-55ç™ˆ ~ 175ç™ˆ (TJ)
 ParamDesignator1515=Q22
 ParamVariation1516=ParameterName=Package / Case|VariantValue=8-PowerTDFN
 ParamDesignator1516=Q22
@@ -3284,9 +3295,9 @@ ParamVariation1532=ParameterName=Supplier Part Number 2|VariantValue=NTMFS5C628N
 ParamDesignator1532=Q22
 ParamVariation1533=ParameterName=Technology|VariantValue=MOSFET (Metal Oxide)
 ParamDesignator1533=Q22
-ParamVariation1534=ParameterName=Vgs (Max)|VariantValue=±20V
+ParamVariation1534=ParameterName=Vgs (Max)|VariantValue=?0V
 ParamDesignator1534=Q22
-ParamVariation1535=ParameterName=Vgs(th) (Max) @ Id|VariantValue=2V @ 135µA
+ParamVariation1535=ParameterName=Vgs(th) (Max) @ Id|VariantValue=2V @ 135ç¤Ž
 ParamDesignator1535=Q22
 Variation40=Designator=Q23|UniqueId=\VNYOKOKT\TMGCATKR|Kind=2|AlternatePart=NTMFS5C628NLT|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=CustomComponents.SchLib|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=NTMFS5C628NLT|AltLibLink_UseLibraryName=False|AltLibLink_SourceLibraryName=CustomComponents.SchLib|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName= |AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=SO8FL|AltLibLink_IsSameFootprint=False
 ParamVariation1536=ParameterName=Comment|VariantValue=NTMFS5C628NLT
@@ -3299,7 +3310,7 @@ ParamVariation1539=ParameterName=ComponentLink1Description|VariantValue=http://w
 ParamDesignator1539=Q23
 ParamVariation1540=ParameterName=ComponentLink1URL|VariantValue=http://www.onsemi.com/pub/Collateral/NTMFS5C628NL-D.PDF
 ParamDesignator1540=Q23
-ParamVariation1541=ParameterName=Current - Continuous Drain (Id) @ 25°C|VariantValue=-
+ParamVariation1541=ParameterName=Current - Continuous Drain (Id) @ 25ç™ˆ|VariantValue=-
 ParamDesignator1541=Q23
 ParamVariation1542=ParameterName=Description|VariantValue=MOSFET N-CH 60V SO8FL
 ParamDesignator1542=Q23
@@ -3325,7 +3336,7 @@ ParamVariation1552=ParameterName=Manufacturer Part Number|VariantValue=NTMFS5C62
 ParamDesignator1552=Q23
 ParamVariation1553=ParameterName=Mounting Type|VariantValue=Surface Mount
 ParamDesignator1553=Q23
-ParamVariation1554=ParameterName=Operating Temperature|VariantValue=-55°C ~ 175°C (TJ)
+ParamVariation1554=ParameterName=Operating Temperature|VariantValue=-55ç™ˆ ~ 175ç™ˆ (TJ)
 ParamDesignator1554=Q23
 ParamVariation1555=ParameterName=Package / Case|VariantValue=8-PowerTDFN
 ParamDesignator1555=Q23
@@ -3363,9 +3374,9 @@ ParamVariation1571=ParameterName=Supplier Part Number 2|VariantValue=NTMFS5C628N
 ParamDesignator1571=Q23
 ParamVariation1572=ParameterName=Technology|VariantValue=MOSFET (Metal Oxide)
 ParamDesignator1572=Q23
-ParamVariation1573=ParameterName=Vgs (Max)|VariantValue=±20V
+ParamVariation1573=ParameterName=Vgs (Max)|VariantValue=?0V
 ParamDesignator1573=Q23
-ParamVariation1574=ParameterName=Vgs(th) (Max) @ Id|VariantValue=2V @ 135µA
+ParamVariation1574=ParameterName=Vgs(th) (Max) @ Id|VariantValue=2V @ 135ç¤Ž
 ParamDesignator1574=Q23
 Variation41=Designator=Q24|UniqueId=\VNYOKOKT\RBJDVKKD|Kind=2|AlternatePart=NTMFS5C628NLT|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=CustomComponents.SchLib|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=NTMFS5C628NLT|AltLibLink_UseLibraryName=False|AltLibLink_SourceLibraryName=CustomComponents.SchLib|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName= |AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=SO8FL|AltLibLink_IsSameFootprint=False
 ParamVariation1575=ParameterName=Comment|VariantValue=NTMFS5C628NLT
@@ -3378,7 +3389,7 @@ ParamVariation1578=ParameterName=ComponentLink1Description|VariantValue=http://w
 ParamDesignator1578=Q24
 ParamVariation1579=ParameterName=ComponentLink1URL|VariantValue=http://www.onsemi.com/pub/Collateral/NTMFS5C628NL-D.PDF
 ParamDesignator1579=Q24
-ParamVariation1580=ParameterName=Current - Continuous Drain (Id) @ 25°C|VariantValue=-
+ParamVariation1580=ParameterName=Current - Continuous Drain (Id) @ 25ç™ˆ|VariantValue=-
 ParamDesignator1580=Q24
 ParamVariation1581=ParameterName=Description|VariantValue=MOSFET N-CH 60V SO8FL
 ParamDesignator1581=Q24
@@ -3404,7 +3415,7 @@ ParamVariation1591=ParameterName=Manufacturer Part Number|VariantValue=NTMFS5C62
 ParamDesignator1591=Q24
 ParamVariation1592=ParameterName=Mounting Type|VariantValue=Surface Mount
 ParamDesignator1592=Q24
-ParamVariation1593=ParameterName=Operating Temperature|VariantValue=-55°C ~ 175°C (TJ)
+ParamVariation1593=ParameterName=Operating Temperature|VariantValue=-55ç™ˆ ~ 175ç™ˆ (TJ)
 ParamDesignator1593=Q24
 ParamVariation1594=ParameterName=Package / Case|VariantValue=8-PowerTDFN
 ParamDesignator1594=Q24
@@ -3442,9 +3453,9 @@ ParamVariation1610=ParameterName=Supplier Part Number 2|VariantValue=NTMFS5C628N
 ParamDesignator1610=Q24
 ParamVariation1611=ParameterName=Technology|VariantValue=MOSFET (Metal Oxide)
 ParamDesignator1611=Q24
-ParamVariation1612=ParameterName=Vgs (Max)|VariantValue=±20V
+ParamVariation1612=ParameterName=Vgs (Max)|VariantValue=?0V
 ParamDesignator1612=Q24
-ParamVariation1613=ParameterName=Vgs(th) (Max) @ Id|VariantValue=2V @ 135µA
+ParamVariation1613=ParameterName=Vgs(th) (Max) @ Id|VariantValue=2V @ 135ç¤Ž
 ParamDesignator1613=Q24
 Variation42=Designator=Q26|UniqueId=\VEEDLNBO\OOVVLSYY|Kind=2|AlternatePart=NTMFS5C628NLT|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=CustomComponents.SchLib|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=NTMFS5C628NLT|AltLibLink_UseLibraryName=False|AltLibLink_SourceLibraryName=CustomComponents.SchLib|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName= |AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=SO8FL|AltLibLink_IsSameFootprint=False
 ParamVariation1614=ParameterName=Comment|VariantValue=NTMFS5C628NLT
@@ -3457,7 +3468,7 @@ ParamVariation1617=ParameterName=ComponentLink1Description|VariantValue=http://w
 ParamDesignator1617=Q26
 ParamVariation1618=ParameterName=ComponentLink1URL|VariantValue=http://www.onsemi.com/pub/Collateral/NTMFS5C628NL-D.PDF
 ParamDesignator1618=Q26
-ParamVariation1619=ParameterName=Current - Continuous Drain (Id) @ 25°C|VariantValue=-
+ParamVariation1619=ParameterName=Current - Continuous Drain (Id) @ 25ç™ˆ|VariantValue=-
 ParamDesignator1619=Q26
 ParamVariation1620=ParameterName=Description|VariantValue=MOSFET N-CH 60V SO8FL
 ParamDesignator1620=Q26
@@ -3483,7 +3494,7 @@ ParamVariation1630=ParameterName=Manufacturer Part Number|VariantValue=NTMFS5C62
 ParamDesignator1630=Q26
 ParamVariation1631=ParameterName=Mounting Type|VariantValue=Surface Mount
 ParamDesignator1631=Q26
-ParamVariation1632=ParameterName=Operating Temperature|VariantValue=-55°C ~ 175°C (TJ)
+ParamVariation1632=ParameterName=Operating Temperature|VariantValue=-55ç™ˆ ~ 175ç™ˆ (TJ)
 ParamDesignator1632=Q26
 ParamVariation1633=ParameterName=Package / Case|VariantValue=8-PowerTDFN
 ParamDesignator1633=Q26
@@ -3521,9 +3532,9 @@ ParamVariation1649=ParameterName=Supplier Part Number 2|VariantValue=NTMFS5C628N
 ParamDesignator1649=Q26
 ParamVariation1650=ParameterName=Technology|VariantValue=MOSFET (Metal Oxide)
 ParamDesignator1650=Q26
-ParamVariation1651=ParameterName=Vgs (Max)|VariantValue=±20V
+ParamVariation1651=ParameterName=Vgs (Max)|VariantValue=?0V
 ParamDesignator1651=Q26
-ParamVariation1652=ParameterName=Vgs(th) (Max) @ Id|VariantValue=2V @ 135µA
+ParamVariation1652=ParameterName=Vgs(th) (Max) @ Id|VariantValue=2V @ 135ç¤Ž
 ParamDesignator1652=Q26
 Variation43=Designator=Q27|UniqueId=\VEEDLNBO\HMSLNMIU|Kind=2|AlternatePart=NTMFS5C628NLT|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=CustomComponents.SchLib|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=NTMFS5C628NLT|AltLibLink_UseLibraryName=False|AltLibLink_SourceLibraryName=CustomComponents.SchLib|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName= |AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=SO8FL|AltLibLink_IsSameFootprint=False
 ParamVariation1653=ParameterName=Comment|VariantValue=NTMFS5C628NLT
@@ -3536,7 +3547,7 @@ ParamVariation1656=ParameterName=ComponentLink1Description|VariantValue=http://w
 ParamDesignator1656=Q27
 ParamVariation1657=ParameterName=ComponentLink1URL|VariantValue=http://www.onsemi.com/pub/Collateral/NTMFS5C628NL-D.PDF
 ParamDesignator1657=Q27
-ParamVariation1658=ParameterName=Current - Continuous Drain (Id) @ 25°C|VariantValue=-
+ParamVariation1658=ParameterName=Current - Continuous Drain (Id) @ 25ç™ˆ|VariantValue=-
 ParamDesignator1658=Q27
 ParamVariation1659=ParameterName=Description|VariantValue=MOSFET N-CH 60V SO8FL
 ParamDesignator1659=Q27
@@ -3562,7 +3573,7 @@ ParamVariation1669=ParameterName=Manufacturer Part Number|VariantValue=NTMFS5C62
 ParamDesignator1669=Q27
 ParamVariation1670=ParameterName=Mounting Type|VariantValue=Surface Mount
 ParamDesignator1670=Q27
-ParamVariation1671=ParameterName=Operating Temperature|VariantValue=-55°C ~ 175°C (TJ)
+ParamVariation1671=ParameterName=Operating Temperature|VariantValue=-55ç™ˆ ~ 175ç™ˆ (TJ)
 ParamDesignator1671=Q27
 ParamVariation1672=ParameterName=Package / Case|VariantValue=8-PowerTDFN
 ParamDesignator1672=Q27
@@ -3600,9 +3611,9 @@ ParamVariation1688=ParameterName=Supplier Part Number 2|VariantValue=NTMFS5C628N
 ParamDesignator1688=Q27
 ParamVariation1689=ParameterName=Technology|VariantValue=MOSFET (Metal Oxide)
 ParamDesignator1689=Q27
-ParamVariation1690=ParameterName=Vgs (Max)|VariantValue=±20V
+ParamVariation1690=ParameterName=Vgs (Max)|VariantValue=?0V
 ParamDesignator1690=Q27
-ParamVariation1691=ParameterName=Vgs(th) (Max) @ Id|VariantValue=2V @ 135µA
+ParamVariation1691=ParameterName=Vgs(th) (Max) @ Id|VariantValue=2V @ 135ç¤Ž
 ParamDesignator1691=Q27
 Variation44=Designator=Q28|UniqueId=\VEEDLNBO\GWYWNENU|Kind=2|AlternatePart=NTMFS5C628NLT|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=CustomComponents.SchLib|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=NTMFS5C628NLT|AltLibLink_UseLibraryName=False|AltLibLink_SourceLibraryName=CustomComponents.SchLib|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName= |AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=SO8FL|AltLibLink_IsSameFootprint=False
 ParamVariation1692=ParameterName=Comment|VariantValue=NTMFS5C628NLT
@@ -3615,7 +3626,7 @@ ParamVariation1695=ParameterName=ComponentLink1Description|VariantValue=http://w
 ParamDesignator1695=Q28
 ParamVariation1696=ParameterName=ComponentLink1URL|VariantValue=http://www.onsemi.com/pub/Collateral/NTMFS5C628NL-D.PDF
 ParamDesignator1696=Q28
-ParamVariation1697=ParameterName=Current - Continuous Drain (Id) @ 25°C|VariantValue=-
+ParamVariation1697=ParameterName=Current - Continuous Drain (Id) @ 25ç™ˆ|VariantValue=-
 ParamDesignator1697=Q28
 ParamVariation1698=ParameterName=Description|VariantValue=MOSFET N-CH 60V SO8FL
 ParamDesignator1698=Q28
@@ -3641,7 +3652,7 @@ ParamVariation1708=ParameterName=Manufacturer Part Number|VariantValue=NTMFS5C62
 ParamDesignator1708=Q28
 ParamVariation1709=ParameterName=Mounting Type|VariantValue=Surface Mount
 ParamDesignator1709=Q28
-ParamVariation1710=ParameterName=Operating Temperature|VariantValue=-55°C ~ 175°C (TJ)
+ParamVariation1710=ParameterName=Operating Temperature|VariantValue=-55ç™ˆ ~ 175ç™ˆ (TJ)
 ParamDesignator1710=Q28
 ParamVariation1711=ParameterName=Package / Case|VariantValue=8-PowerTDFN
 ParamDesignator1711=Q28
@@ -3679,9 +3690,9 @@ ParamVariation1727=ParameterName=Supplier Part Number 2|VariantValue=NTMFS5C628N
 ParamDesignator1727=Q28
 ParamVariation1728=ParameterName=Technology|VariantValue=MOSFET (Metal Oxide)
 ParamDesignator1728=Q28
-ParamVariation1729=ParameterName=Vgs (Max)|VariantValue=±20V
+ParamVariation1729=ParameterName=Vgs (Max)|VariantValue=?0V
 ParamDesignator1729=Q28
-ParamVariation1730=ParameterName=Vgs(th) (Max) @ Id|VariantValue=2V @ 135µA
+ParamVariation1730=ParameterName=Vgs(th) (Max) @ Id|VariantValue=2V @ 135ç¤Ž
 ParamDesignator1730=Q28
 Variation45=Designator=R6|UniqueId=\TDBVJFYU|Kind=2|AlternatePart=18k|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=CustomComponents.SchLib|AltLibLink_SymbolReference=RC0603FR-0710KL|AltLibLink_DesignItemID=RC0603FR-0718KL|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=CustomComponents.SchLib|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName= |AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=RESC1608X55N|AltLibLink_IsSameFootprint=True
 ParamVariation1731=ParameterName=Comment|VariantValue=18k
@@ -3714,7 +3725,7 @@ ParamVariation1744=ParameterName=Manufacturer Part Number|VariantValue=RC0603FR-
 ParamDesignator1744=R6
 ParamVariation1745=ParameterName=Number of Terminations|VariantValue=2
 ParamDesignator1745=R6
-ParamVariation1746=ParameterName=Operating Temperature|VariantValue=-55°C ~ 155°C
+ParamVariation1746=ParameterName=Operating Temperature|VariantValue=-55ç™ˆ ~ 155ç™ˆ
 ParamDesignator1746=R6
 ParamVariation1747=ParameterName=Package / Case|VariantValue=0603 (1608 Metric)
 ParamDesignator1747=R6
@@ -3744,9 +3755,9 @@ ParamVariation1759=ParameterName=Supplier Device Package|VariantValue=0603
 ParamDesignator1759=R6
 ParamVariation1760=ParameterName=Supplier Part Number 1|VariantValue=311-18.0KHRCT-ND
 ParamDesignator1760=R6
-ParamVariation1761=ParameterName=Temperature Coefficient|VariantValue=±100ppm/°C
+ParamVariation1761=ParameterName=Temperature Coefficient|VariantValue=?00ppm/ç™ˆ
 ParamDesignator1761=R6
-ParamVariation1762=ParameterName=Tolerance|VariantValue=±1%
+ParamVariation1762=ParameterName=Tolerance|VariantValue=?%
 ParamDesignator1762=R6
 ParamVariationCount=1762
 
@@ -3755,10 +3766,10 @@ Name=Default Configuration
 ParameterCount=0
 ConstraintFileCount=0
 ReleaseItemId=
-CurrentRevision=
 Variant=[No Variations]
-GenerateBOM=1
 OutputJobsCount=0
+ContentTypeGUID=
+ConfigurationType=
 
 [Generic_SmartPDF]
 AutoOpenFile=-1
@@ -3802,185 +3813,215 @@ OutputDir=
 [OutputGroup1]
 Name=Netlist Outputs
 Description=
-TargetPrinter=Full Spectrum Engineering Driver
+TargetPrinter=Adobe PDF
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=PCADNetlist
 OutputName1=PCAD Netlist
 OutputDocumentPath1=
 OutputVariantName1=
 OutputDefault1=0
-OutputType2=Verilog
-OutputName2=Verilog File
+OutputType2=XSpiceNetlist
+OutputName2=XSpice Netlist
 OutputDocumentPath2=
 OutputVariantName2=
 OutputDefault2=0
-OutputType3=VHDL
-OutputName3=VHDL File
+OutputType3=PADSNetlist
+OutputName3=PADS ASCII Netlist
 OutputDocumentPath3=
 OutputVariantName3=
 OutputDefault3=0
-OutputType4=XSpiceNetlist
-OutputName4=XSpice Netlist
+OutputType4=CadnetixNetlist
+OutputName4=Cadnetix Netlist
 OutputDocumentPath4=
 OutputVariantName4=
 OutputDefault4=0
-OutputType5=PADSNetlist
-OutputName5=PADS ASCII Netlist
+OutputType5=CalayNetlist
+OutputName5=Calay Netlist
 OutputDocumentPath5=
 OutputVariantName5=
 OutputDefault5=0
-OutputType6=SIMetrixNetlist
-OutputName6=SIMetrix
+OutputType6=EDIF
+OutputName6=EDIF for PCB
 OutputDocumentPath6=
 OutputVariantName6=
 OutputDefault6=0
-OutputType7=SIMPLISNetlist
-OutputName7=SIMPLIS
+OutputType7=EESofNetlist
+OutputName7=EESof Netlist
 OutputDocumentPath7=
 OutputVariantName7=
 OutputDefault7=0
+OutputType8=IntergraphNetlist
+OutputName8=Intergraph Netlist
+OutputDocumentPath8=
+OutputVariantName8=
+OutputDefault8=0
+OutputType9=MentorBoardStationNetlist
+OutputName9=Mentor BoardStation Netlist
+OutputDocumentPath9=
+OutputVariantName9=
+OutputDefault9=0
+OutputType10=MultiWire
+OutputName10=MultiWire
+OutputDocumentPath10=
+OutputVariantName10=
+OutputDefault10=0
+OutputType11=OrCadPCB2Netlist
+OutputName11=Orcad/PCB2 Netlist
+OutputDocumentPath11=
+OutputVariantName11=
+OutputDefault11=0
+OutputType12=Pcad
+OutputName12=Pcad for PCB
+OutputDocumentPath12=
+OutputVariantName12=
+OutputDefault12=0
+OutputType13=PCADnltNetlist
+OutputName13=PCADnlt Netlist
+OutputDocumentPath13=
+OutputVariantName13=
+OutputDefault13=0
+OutputType14=Protel2Netlist
+OutputName14=Protel2 Netlist
+OutputDocumentPath14=
+OutputVariantName14=
+OutputDefault14=0
+OutputType15=ProtelNetlist
+OutputName15=Protel
+OutputDocumentPath15=
+OutputVariantName15=
+OutputDefault15=0
+OutputType16=RacalNetlist
+OutputName16=Racal Netlist
+OutputDocumentPath16=
+OutputVariantName16=
+OutputDefault16=0
+OutputType17=RINFNetlist
+OutputName17=RINF Netlist
+OutputDocumentPath17=
+OutputVariantName17=
+OutputDefault17=0
+OutputType18=SciCardsNetlist
+OutputName18=SciCards Netlist
+OutputDocumentPath18=
+OutputVariantName18=
+OutputDefault18=0
+OutputType19=TangoNetlist
+OutputName19=Tango Netlist
+OutputDocumentPath19=
+OutputVariantName19=
+OutputDefault19=0
+OutputType20=TelesisNetlist
+OutputName20=Telesis Netlist
+OutputDocumentPath20=
+OutputVariantName20=
+OutputDefault20=0
+OutputType21=WireListNetlist
+OutputName21=WireList Netlist
+OutputDocumentPath21=
+OutputVariantName21=
+OutputDefault21=0
 
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=Full Spectrum Engineering Driver
+TargetPrinter=Adobe PDF
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=AdvSimNetlist
 OutputName1=Mixed Sim
 OutputDocumentPath1=
 OutputVariantName1=
 OutputDefault1=0
-OutputType2=SIMetrixSimulation
-OutputName2=SIMetrix
-OutputDocumentPath2=
-OutputVariantName2=
-OutputDefault2=0
-OutputType3=SIMPLISSimulation
-OutputName3=SIMPLIS
-OutputDocumentPath3=
-OutputVariantName3=
-OutputDefault3=0
 
 [OutputGroup3]
 Name=Documentation Outputs
 Description=
 TargetPrinter=Virtual Printer
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
-OutputType1=Assembler Source Print
-OutputName1=Assembler Source Prints
+OutputType1=Composite
+OutputName1=Composite Drawing
 OutputDocumentPath1=
-OutputVariantName1=
+OutputVariantName1=[No Variations]
 OutputDefault1=0
 PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType2=C Source Print
-OutputName2=C Source Prints
+OutputType2=PCB 3D Print
+OutputName2=PCB 3D Print
 OutputDocumentPath2=
-OutputVariantName2=
+OutputVariantName2=[No Variations]
 OutputDefault2=0
 PageOptions2=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType3=C/C++ Header Print
-OutputName3=C/C++ Header Prints
+OutputType3=PCB 3D Video
+OutputName3=PCB 3D Video
 OutputDocumentPath3=
-OutputVariantName3=
+OutputVariantName3=[No Variations]
 OutputDefault3=0
 PageOptions3=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType4=C++ Source Print
-OutputName4=C++ Source Prints
+OutputType4=PCB Print
+OutputName4=PCB Prints
 OutputDocumentPath4=
-OutputVariantName4=
+OutputVariantName4=[No Variations]
 OutputDefault4=0
 PageOptions4=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType5=Composite
-OutputName5=Composite Drawing
+OutputType5=PCBLIB Print
+OutputName5=PCBLIB Prints
 OutputDocumentPath5=
-OutputVariantName5=
+OutputVariantName5=[No Variations]
 OutputDefault5=0
 PageOptions5=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType6=FSM Print
-OutputName6=FSM Prints
+OutputType6=Report Print
+OutputName6=Report Prints
 OutputDocumentPath6=
 OutputVariantName6=
 OutputDefault6=0
 PageOptions6=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType7=OpenBus Print
-OutputName7=OpenBus Prints
-OutputDocumentPath7=
+OutputType7=Schematic Print
+OutputName7=Schematic Prints
+OutputDocumentPath7=C:\Users\Oskar\Documents\Servo\two_ax_PCB\Top.SchDoc
 OutputVariantName7=
 OutputDefault7=0
 PageOptions7=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType8=PCB 3D Print
-OutputName8=PCB 3D Print
+Configuration7_Name1=OutputConfigurationParameter1
+Configuration7_Item1=Record=SchPrintView|ShowNoERC=True|ShowParamSet=True|ShowProbe=True|ShowBlanket=True|NoERCSymbolsToShow="Thin Cross","Thick Cross","Small Cross",Checkbox,Triangle|ShowNote=True|ShowNoteCollapsed=True|ExpandDesignator=True|ExpandNetLabel=False|ExpandPort=False|ExpandSheetNum=False|ExpandDocNum=False|PrintArea=0|PrintAreaRect.X1=0|PrintAreaRect.Y1=0|PrintAreaRect.X2=0|PrintAreaRect.Y2=0
+OutputType8=SimView Print
+OutputName8=SimView Prints
 OutputDocumentPath8=
-OutputVariantName8=[No Variations]
+OutputVariantName8=
 OutputDefault8=0
 PageOptions8=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType9=PCB 3D Video
-OutputName9=PCB 3D Video
+OutputType9=PDF3D
+OutputName9=PDF3D
 OutputDocumentPath9=
 OutputVariantName9=[No Variations]
 OutputDefault9=0
 PageOptions9=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType10=PCB Print
-OutputName10=PCB Prints
+OutputType10=Harness Layout Drawing Print
+OutputName10=Harness Layout Drawing Prints
 OutputDocumentPath10=
 OutputVariantName10=
 OutputDefault10=0
 PageOptions10=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType11=PCBLIB Print
-OutputName11=PCBLIB Prints
+OutputType11=Harness Wiring Diagram Print
+OutputName11=Harness Wiring Diagram Prints
 OutputDocumentPath11=
 OutputVariantName11=
 OutputDefault11=0
 PageOptions11=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType12=Report Print
-OutputName12=Report Prints
+OutputType12=PCBDrawing
+OutputName12=Draftsman
 OutputDocumentPath12=
-OutputVariantName12=
+OutputVariantName12=[No Variations]
 OutputDefault12=0
 PageOptions12=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType13=Schematic Print
-OutputName13=Schematic Prints
-OutputDocumentPath13=C:\Users\Oskar\Documents\Servo\two_ax_PCB\Top.SchDoc
+OutputType13=PDF3D MBA
+OutputName13=PDF3D MBA
+OutputDocumentPath13=
 OutputVariantName13=
 OutputDefault13=0
 PageOptions13=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-Configuration13_Name1=OutputConfigurationParameter1
-Configuration13_Item1=Record=SchPrintView|ShowNoERC=True|ShowParamSet=True|ShowProbe=True|ShowBlanket=True|NoERCSymbolsToShow="Thin Cross","Thick Cross","Small Cross",Checkbox,Triangle|ShowNote=True|ShowNoteCollapsed=True|ExpandDesignator=True|ExpandNetLabel=False|ExpandPort=False|ExpandSheetNum=False|ExpandDocNum=False|PrintArea=0|PrintAreaRect.X1=0|PrintAreaRect.Y1=0|PrintAreaRect.X2=0|PrintAreaRect.Y2=0
-OutputType14=SimView Print
-OutputName14=SimView Prints
-OutputDocumentPath14=
-OutputVariantName14=
-OutputDefault14=0
-PageOptions14=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType15=VHDL Print
-OutputName15=VHDL Prints
-OutputDocumentPath15=
-OutputVariantName15=
-OutputDefault15=0
-PageOptions15=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType16=Wave Print
-OutputName16=Wave Prints
-OutputDocumentPath16=
-OutputVariantName16=
-OutputDefault16=0
-PageOptions16=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType17=WaveSim Print
-OutputName17=WaveSim Prints
-OutputDocumentPath17=
-OutputVariantName17=
-OutputDefault17=0
-PageOptions17=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType18=PDF3D
-OutputName18=PDF3D
-OutputDocumentPath18=
-OutputVariantName18=[No Variations]
-OutputDefault18=0
-PageOptions18=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 
 [OutputGroup4]
 Name=Assembly Outputs
 Description=
-TargetPrinter=Full Spectrum Engineering Driver
+TargetPrinter=Adobe PDF
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Test Points For Assembly
 OutputName1=Test Point Report
@@ -4004,18 +4045,18 @@ PageOptions3=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintS
 [OutputGroup5]
 Name=Fabrication Outputs
 Description=
-TargetPrinter=Full Spectrum Engineering Driver
+TargetPrinter=Adobe PDF
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=CompositeDrill
 OutputName1=Composite Drill Drawing
 OutputDocumentPath1=
-OutputVariantName1=
+OutputVariantName1=[No Variations]
 OutputDefault1=0
 PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 OutputType2=Drill
 OutputName2=Drill Drawing/Guides
 OutputDocumentPath2=
-OutputVariantName2=
+OutputVariantName2=[No Variations]
 OutputDefault2=0
 PageOptions2=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 OutputType3=Board Stack Report
@@ -4033,7 +4074,7 @@ PageOptions4=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintS
 OutputType5=Mask
 OutputName5=Solder/Paste Mask Prints
 OutputDocumentPath5=
-OutputVariantName5=
+OutputVariantName5=[No Variations]
 OutputDefault5=0
 PageOptions5=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 OutputType6=Test Points
@@ -4049,7 +4090,7 @@ OutputDefault7=0
 OutputType8=Plane
 OutputName8=Power-Plane Prints
 OutputDocumentPath8=
-OutputVariantName8=
+OutputVariantName8=[No Variations]
 OutputDefault8=0
 PageOptions8=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 OutputType9=NC Drill
@@ -4062,12 +4103,12 @@ Configuration9_Item1=BoardEdgeRoutToolDia=2000000|GenerateBoardEdgeRout=False|Ge
 OutputType10=Gerber X2
 OutputName10=Gerber X2 Files
 OutputDocumentPath10=
-OutputVariantName10=
+OutputVariantName10=[No Variations]
 OutputDefault10=0
 OutputType11=IPC2581
 OutputName11=IPC-2581 Files
 OutputDocumentPath11=
-OutputVariantName11=
+OutputVariantName11=[No Variations]
 OutputDefault11=0
 OutputType12=Gerber
 OutputName12=Gerber Files
@@ -4080,7 +4121,7 @@ Configuration12_Item1=AddToAllLayerClasses.Set= |AddToAllPlots.Set=SerializeLaye
 [OutputGroup6]
 Name=Report Outputs
 Description=
-TargetPrinter=DYMO LabelWriter 4XL
+TargetPrinter=Adobe PDF
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=BOM_PartType
 OutputName1=Bill of Materials
@@ -4129,11 +4170,29 @@ OutputName6=Report Single Pin Nets
 OutputDocumentPath6=
 OutputVariantName6=[No Variations]
 OutputDefault6=0
+OutputType7=BOM_ReportCompare
+OutputName7=BOM Compare
+OutputDocumentPath7=
+OutputVariantName7=[No Variations]
+OutputDefault7=0
+PageOptions7=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType8=Export Comments
+OutputName8=Export Comments
+OutputDocumentPath8=
+OutputVariantName8=[No Variations]
+OutputDefault8=0
+PageOptions8=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType9=Export Project History
+OutputName9=Export Project History
+OutputDocumentPath9=
+OutputVariantName9=[No Variations]
+OutputDefault9=0
+PageOptions9=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 
 [OutputGroup7]
 Name=Other Outputs
 Description=
-TargetPrinter=Full Spectrum Engineering Driver
+TargetPrinter=Adobe PDF
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Text Print
 OutputName1=Text Print
@@ -4146,174 +4205,102 @@ OutputName2=Text Print
 OutputDocumentPath2=
 OutputVariantName2=
 OutputDefault2=0
-PageOptions2=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+PageOptions2=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 OutputType3=Text Print
 OutputName3=Text Print
 OutputDocumentPath3=
 OutputVariantName3=
 OutputDefault3=0
-PageOptions3=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+PageOptions3=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 OutputType4=Text Print
 OutputName4=Text Print
 OutputDocumentPath4=
 OutputVariantName4=
 OutputDefault4=0
-PageOptions4=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+PageOptions4=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 OutputType5=Text Print
 OutputName5=Text Print
 OutputDocumentPath5=
 OutputVariantName5=
 OutputDefault5=0
-PageOptions5=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+PageOptions5=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 OutputType6=Text Print
 OutputName6=Text Print
 OutputDocumentPath6=
 OutputVariantName6=
 OutputDefault6=0
-PageOptions6=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+PageOptions6=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 OutputType7=Text Print
 OutputName7=Text Print
 OutputDocumentPath7=
 OutputVariantName7=
 OutputDefault7=0
-PageOptions7=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+PageOptions7=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 OutputType8=Text Print
 OutputName8=Text Print
 OutputDocumentPath8=
 OutputVariantName8=
 OutputDefault8=0
-PageOptions8=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+PageOptions8=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 OutputType9=Text Print
 OutputName9=Text Print
 OutputDocumentPath9=
 OutputVariantName9=
 OutputDefault9=0
-PageOptions9=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+PageOptions9=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 OutputType10=Text Print
 OutputName10=Text Print
 OutputDocumentPath10=
 OutputVariantName10=
 OutputDefault10=0
-PageOptions10=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+PageOptions10=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 OutputType11=Text Print
 OutputName11=Text Print
 OutputDocumentPath11=
 OutputVariantName11=
 OutputDefault11=0
-PageOptions11=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+PageOptions11=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 OutputType12=Text Print
 OutputName12=Text Print
 OutputDocumentPath12=
 OutputVariantName12=
 OutputDefault12=0
-PageOptions12=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+PageOptions12=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 OutputType13=Text Print
 OutputName13=Text Print
 OutputDocumentPath13=
 OutputVariantName13=
 OutputDefault13=0
-PageOptions13=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+PageOptions13=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 OutputType14=Text Print
 OutputName14=Text Print
 OutputDocumentPath14=
 OutputVariantName14=
 OutputDefault14=0
-PageOptions14=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+PageOptions14=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 OutputType15=Text Print
 OutputName15=Text Print
 OutputDocumentPath15=
 OutputVariantName15=
 OutputDefault15=0
-PageOptions15=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+PageOptions15=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 OutputType16=Text Print
 OutputName16=Text Print
 OutputDocumentPath16=
 OutputVariantName16=
 OutputDefault16=0
-PageOptions16=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+PageOptions16=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 OutputType17=Text Print
 OutputName17=Text Print
 OutputDocumentPath17=
 OutputVariantName17=
 OutputDefault17=0
-PageOptions17=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
-OutputType18=Text Print
-OutputName18=Text Print
-OutputDocumentPath18=
-OutputVariantName18=
-OutputDefault18=0
-PageOptions18=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
-OutputType19=Text Print
-OutputName19=Text Print
-OutputDocumentPath19=
-OutputVariantName19=
-OutputDefault19=0
-PageOptions19=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
-OutputType20=Text Print
-OutputName20=Text Print
-OutputDocumentPath20=
-OutputVariantName20=
-OutputDefault20=0
-PageOptions20=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
-OutputType21=Text Print
-OutputName21=Text Print
-OutputDocumentPath21=
-OutputVariantName21=
-OutputDefault21=0
-PageOptions21=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
-OutputType22=Text Print
-OutputName22=Text Print
-OutputDocumentPath22=
-OutputVariantName22=
-OutputDefault22=0
-PageOptions22=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
-OutputType23=Text Print
-OutputName23=Text Print
-OutputDocumentPath23=
-OutputVariantName23=
-OutputDefault23=0
-PageOptions23=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
-OutputType24=Text Print
-OutputName24=Text Print
-OutputDocumentPath24=
-OutputVariantName24=
-OutputDefault24=0
-PageOptions24=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
-OutputType25=Text Print
-OutputName25=Text Print
-OutputDocumentPath25=
-OutputVariantName25=
-OutputDefault25=0
-PageOptions25=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
-OutputType26=Text Print
-OutputName26=Text Print
-OutputDocumentPath26=
-OutputVariantName26=
-OutputDefault26=0
-PageOptions26=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
-OutputType27=Text Print
-OutputName27=Text Print
-OutputDocumentPath27=
-OutputVariantName27=
-OutputDefault27=0
-PageOptions27=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
-OutputType28=Text Print
-OutputName28=Text Print
-OutputDocumentPath28=
-OutputVariantName28=
-OutputDefault28=0
-PageOptions28=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
-OutputType29=Text Print
-OutputName29=Text Print
-OutputDocumentPath29=
-OutputVariantName29=
-OutputDefault29=0
-PageOptions29=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+PageOptions17=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 
 [OutputGroup8]
 Name=Validation Outputs
 Description=
-TargetPrinter=Full Spectrum Engineering Driver
+TargetPrinter=Adobe PDF
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Configuration compliance
 OutputName1=Environment configuration compliance check
@@ -4348,11 +4335,16 @@ OutputName6=Vault's components states check
 OutputDocumentPath6=
 OutputVariantName6=
 OutputDefault6=0
+OutputType7=BOM_Violations
+OutputName7=BOM Checks Report
+OutputDocumentPath7=
+OutputVariantName7=
+OutputDefault7=0
 
 [OutputGroup9]
 Name=Export Outputs
 Description=
-TargetPrinter=Full Spectrum Engineering Driver
+TargetPrinter=Adobe PDF
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=AutoCAD dwg/dxf PCB
 OutputName1=AutoCAD dwg/dxf File PCB
@@ -4374,6 +4366,57 @@ OutputName4=Export STEP
 OutputDocumentPath4=
 OutputVariantName4=[No Variations]
 OutputDefault4=0
+OutputType5=ExportPARASOLID
+OutputName5=Export PARASOLID
+OutputDocumentPath5=
+OutputVariantName5=[No Variations]
+OutputDefault5=0
+OutputType6=ExportVRML
+OutputName6=Export VRML
+OutputDocumentPath6=
+OutputVariantName6=[No Variations]
+OutputDefault6=0
+OutputType7=MBAExportPARASOLID
+OutputName7=Export PARASOLID
+OutputDocumentPath7=
+OutputVariantName7=
+OutputDefault7=0
+OutputType8=MBAExportSTEP
+OutputName8=Export STEP
+OutputDocumentPath8=
+OutputVariantName8=
+OutputDefault8=0
+OutputType9=Save As/Export PCB
+OutputName9=Save As/Export PCB
+OutputDocumentPath9=
+OutputVariantName9=
+OutputDefault9=0
+OutputType10=Save As/Export Schematic
+OutputName10=Save As/Export Schematic
+OutputDocumentPath10=
+OutputVariantName10=
+OutputDefault10=0
+OutputType11=Specctra Design PCB
+OutputName11=Specctra Design PCB
+OutputDocumentPath11=
+OutputVariantName11=
+OutputDefault11=0
+OutputType12=Web ReviewOutputName
+OutputName12=Web Review Data
+OutputDocumentPath12=
+OutputVariantName12=
+OutputDefault12=0
+
+[OutputGroup10]
+Name=PostProcess Outputs
+Description=
+TargetPrinter=Adobe PDF
+PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
+OutputType1=Copy Files
+OutputName1=Copy Files
+OutputDocumentPath1=
+OutputVariantName1=
+OutputDefault1=0
 
 [Modification Levels]
 Type1=1
@@ -4456,6 +4499,46 @@ Type77=1
 Type78=1
 Type79=1
 Type80=1
+Type81=1
+Type82=1
+Type83=1
+Type84=1
+Type85=1
+Type86=1
+Type87=1
+Type88=1
+Type89=1
+Type90=1
+Type91=1
+Type92=1
+Type93=1
+Type94=1
+Type95=1
+Type96=1
+Type97=1
+Type98=1
+Type99=1
+Type100=1
+Type101=1
+Type102=1
+Type103=1
+Type104=1
+Type105=1
+Type106=1
+Type107=1
+Type108=1
+Type109=1
+Type110=1
+Type111=1
+Type112=1
+Type113=1
+Type114=1
+Type115=1
+Type116=1
+Type117=1
+Type118=1
+Type119=1
+Type120=1
 
 [Difference Levels]
 Type1=1
@@ -4503,6 +4586,29 @@ Type42=1
 Type43=1
 Type44=0
 Type45=1
+Type46=1
+Type47=1
+Type48=1
+Type49=1
+Type50=1
+Type51=1
+Type52=1
+Type53=1
+Type54=1
+Type55=1
+Type56=1
+Type57=1
+Type58=1
+Type59=1
+Type60=1
+Type61=1
+Type62=1
+Type63=1
+Type64=1
+Type65=1
+Type66=1
+Type67=1
+Type68=1
 
 [Electrical Rules Check]
 Type1=1
@@ -4511,7 +4617,7 @@ Type3=2
 Type4=1
 Type5=2
 Type6=2
-Type7=1
+Type7=0
 Type8=1
 Type9=1
 Type10=1
@@ -4524,20 +4630,20 @@ Type16=1
 Type17=1
 Type18=1
 Type19=1
-Type20=1
-Type21=1
-Type22=1
-Type23=1
+Type20=0
+Type21=0
+Type22=0
+Type23=0
 Type24=1
 Type25=2
-Type26=2
+Type26=0
 Type27=2
 Type28=1
 Type29=1
 Type30=1
 Type31=1
 Type32=2
-Type33=2
+Type33=0
 Type34=2
 Type35=1
 Type36=2
@@ -4548,15 +4654,15 @@ Type40=2
 Type41=0
 Type42=2
 Type43=1
-Type44=1
-Type45=2
-Type46=1
-Type47=2
-Type48=2
-Type49=1
+Type44=0
+Type45=0
+Type46=0
+Type47=0
+Type48=0
+Type49=0
 Type50=2
-Type51=1
-Type52=1
+Type51=0
+Type52=0
 Type53=1
 Type54=1
 Type55=1
@@ -4564,10 +4670,10 @@ Type56=2
 Type57=1
 Type58=1
 Type59=0
-Type60=1
-Type61=2
-Type62=2
-Type63=1
+Type60=0
+Type61=0
+Type62=0
+Type63=0
 Type64=0
 Type65=2
 Type66=3
@@ -4605,7 +4711,7 @@ Type97=2
 Type98=0
 Type99=1
 Type100=2
-Type101=1
+Type101=0
 Type102=2
 Type103=2
 Type104=1
@@ -4616,6 +4722,21 @@ Type108=2
 Type109=1
 Type110=1
 Type111=1
+Type112=1
+Type113=1
+Type114=2
+Type115=2
+Type116=2
+Type117=3
+Type118=3
+Type119=3
+AlternateItemFail=3
+Type122=2
+Type123=1
+Type124=1
+Type125=1
+Type126=1
+Type127=1
 
 [ERC Connection Matrix]
 L1=NNNNNNNNNNNNNNNNW
@@ -4639,6 +4760,7 @@ L17=WNNNNNNNWNNNWWWWN
 [Annotate]
 SortOrder=3
 SortLocation=0
+ReplaceSubparts=0
 MatchParameter1=Comment
 MatchStrictly1=1
 MatchParameter2=Library Reference
@@ -4659,6 +4781,7 @@ NetClassSeparateForBusSections=0
 [LibraryUpdateOptions]
 SelectedOnly=0
 UpdateVariants=1
+UpdateToLatestRevision=1
 PartTypes=0
 ComponentLibIdentifierKind0=Library Name And Type
 ComponentLibraryIdentifier0=CustomComponents.SchLib
@@ -4977,7 +5100,7 @@ ParameterName15=Core
 ParameterUpdate15=1
 ParameterName16=Current
 ParameterUpdate16=1
-ParameterName17=Current - Continuous Drain (Id) @ 25°C
+ParameterName17=Current - Continuous Drain (Id) @ 25ç™ˆ
 ParameterUpdate17=1
 ParameterName18=Current - Limit (Min)
 ParameterUpdate18=1
@@ -5319,15 +5442,16 @@ ModelUpdate39=1
 [DatabaseUpdateOptions]
 SelectedOnly=0
 UpdateVariants=1
+UpdateToLatestRevision=1
 PartTypes=0
 
 [Comparison Options]
-ComparisonOptions0=Kind=Net|MinPercent=75|MinMatch=3|ShowMatch=-1|Confirm=-1|UseName=-1|InclAllRules=0
-ComparisonOptions1=Kind=Net Class|MinPercent=75|MinMatch=3|ShowMatch=-1|Confirm=-1|UseName=-1|InclAllRules=0
-ComparisonOptions2=Kind=Component Class|MinPercent=75|MinMatch=3|ShowMatch=-1|Confirm=-1|UseName=-1|InclAllRules=0
-ComparisonOptions3=Kind=Rule|MinPercent=75|MinMatch=3|ShowMatch=-1|Confirm=-1|UseName=-1|InclAllRules=0
-ComparisonOptions4=Kind=Differential Pair|MinPercent=50|MinMatch=1|ShowMatch=0|Confirm=0|UseName=0|InclAllRules=0
-ComparisonOptions5=Kind=Code Memory|MinPercent=75|MinMatch=3|ShowMatch=-1|Confirm=-1|UseName=-1|InclAllRules=0
+ComparisonOptions0=Kind=Net|MinPercent=75|MinMatch=3|ShowMatch=-1|UseName=-1|InclAllRules=0
+ComparisonOptions1=Kind=Net Class|MinPercent=75|MinMatch=3|ShowMatch=-1|UseName=-1|InclAllRules=0
+ComparisonOptions2=Kind=Component Class|MinPercent=75|MinMatch=3|ShowMatch=-1|UseName=-1|InclAllRules=0
+ComparisonOptions3=Kind=Rule|MinPercent=75|MinMatch=3|ShowMatch=-1|UseName=-1|InclAllRules=0
+ComparisonOptions4=Kind=Differential Pair|MinPercent=50|MinMatch=1|ShowMatch=0|UseName=0|InclAllRules=0
+ComparisonOptions5=Kind=Structure Class|MinPercent=75|MinMatch=3|ShowMatch=-1|UseName=-1|InclAllRules=0
 
 [SmartPDF]
 PageOptions=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
