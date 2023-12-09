@@ -173,16 +173,11 @@ UniqueID=C9908727-7E8D-48B6-A98C-77F26BC97FC5
 Description=noCAN
 AllowFabrication=0
 ParameterCount=0
-VariationCount=1
-Variation1=Designator=U1|UniqueId=\CTKQUPJF|Kind=1|AlternatePart= 
+VariationCount=0
 ParamVariationCount=0
 
 [GeneratedDocument1]
 DocumentPath=Project Outputs for ODrive_2motor\Design Rule Check - PCB.html
-DItemRevisionGUID=
-
-[GeneratedDocument2]
-DocumentPath=Project Outputs for two_ax_PCB\Design Rule Check - PCB.html
 DItemRevisionGUID=
 
 [Configuration1]
